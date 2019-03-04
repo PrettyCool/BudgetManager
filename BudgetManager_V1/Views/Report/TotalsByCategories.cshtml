@@ -1,0 +1,107 @@
+﻿@model BudgetManager_V1.Models.VM.TotalByCategoriesVm
+
+@{
+    ViewBag.Title = "Totals by categories";
+}
+
+<h3>Fact expenses by categories for selected period:</h3>
+
+
+<div>
+    <hr />
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.From, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div>
+                    @Html.EditorFor(model => model.From, new { htmlAttributes = new { @class = "datepicker " } })
+                    @Html.ValidationMessageFor(model => model.From, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.To, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div>
+                    @Html.EditorFor(model => model.To, new { htmlAttributes = new { @class = "datepicker " } })
+                    @Html.ValidationMessageFor(model => model.To, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create a report" class="btn btn-default" />
+                </div>
+            </div>
+
+        </div>
+    }
+</div>
+
+@{ double sum = 0.0;}
+
+@if (Model.CategorySum != null)
+{
+    foreach (var i in Model.CategorySum)
+    {
+        sum += i.Value;
+    }
+    <table class="table-bordered text-justify" >
+        <thead>
+            <tr>
+                <td colspan="3" class="text-center text-uppercase">The sum of fact expenses from @Model.From.ToShortDateString() to @Model.To.ToShortDateString() </td>
+            </tr>
+            <tr>
+                <th>Category</th>
+                <th>Sum of fact expenses </th>
+                <th>Percentage</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model.CategorySum)
+            {
+                <tr>
+                    <td style="font-weight:bold" class="col-md-4">@i.Key</td>
+                    <td style="color:#195206" class="col-md-2">@String.Format("{0:C}", i.Value)</td>
+                    <td style="color:#195206" class="col-md-1">@String.Format("{0:P}", i.Value / sum)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+@section scripts{
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".datepicker").datepicker(
+                {
+                    dateFormat: "yy/mm/dd",
+                    changeMonth: true,
+                    changeYear: true,
+                    //yearRange: "2010:2020"
+                    yearRange: "-10:+10",
+                    //minDate: new Date(2016, 0, 1),
+                    //maxDate: "+2Y +1M +10D",
+                    showOn: "both",//                    showOn: "button",
+                    buttonImage: "/Content/calendar.gif",
+                    buttonImageOnly: true,
+                    buttonText: "Select date",
+                    //numberOfMonths: 3,
+                    //showButtonPanel: true,
+                    //showWeek: true
+                }
+            );
+        });
+
+    </script>
+
+}

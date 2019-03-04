@@ -1,0 +1,214 @@
+﻿@model BudgetManager_V1.Models.VM.IncomeExpenseByMonthVm
+@using BudgetManager_V1.Models.VM
+@using BudgetManager_V1.Models
+
+@{
+    /**/
+
+    ViewBag.Title = "IncomeExpenseForMonth";
+}
+
+
+<div>
+    <h4>Income/Expenses for a month</h4>
+    <hr />
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <hr />
+
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor(model => model.CurrentSelection, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div>
+                    @Html.EditorFor(model => model.CurrentSelection, new { htmlAttributes = new { @class = "datepicker " } })
+                    @Html.ValidationMessageFor(model => model.CurrentSelection, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ReportType, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div>
+                    @Html.DropDownListFor(model => model.ReportType, EnumHelper.GetSelectList(typeof(ReportType)))
+                    @*@Html.EditorFor(model => model.ReportType, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.ValidationMessageFor(model => model.ReportType, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SelectedForPeriod, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div>
+                    @Html.DropDownListFor(model => model.SelectedForPeriod, EnumHelper.GetSelectList(typeof(SelectedForPeriod)))
+                    @*@Html.EditorFor(model => model.SelectedForPeriod, new { htmlAttributes = new { @class = "form-control" } })*@
+                    @Html.ValidationMessageFor(model => model.SelectedForPeriod, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+
+    @{
+        double SumIncome = 0;
+        double SumExpemse = 0;
+        double rez = 0;
+    }
+    <div class="container ">
+        <div class="row table-bordered">
+            <span class="col-sm-2">Account</span>
+            <span class="col-sm-2">Income/Expense</span>
+            <span class="col-sm-1">Plan/Fact</span>
+            <span class="col-sm-2">Date</span>
+            <span class="col-sm-1">Currency</span>
+            <span class="col-sm-1">Sum</span>
+            <span class="col-sm-3">Expense description</span>
+        </div>
+
+        @foreach (var item in Model?.LedgerData)
+        {
+            <div class="row table-bordered table-responsive text-justify">
+                <span class="col-sm-2 ">@item.Account.Name</span>
+                <span class="col-sm-2">@item.IncomeExpenseItem.Name</span>
+                <span class="col-sm-1">@item.PlanFact.Name</span>
+                <span class="col-sm-2">@item.Date</span>
+                <span class="col-sm-1">@item.Account.Currency.ISOCurrencySymbol</span>
+
+
+                @if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense") == true)
+                {
+                    <span class="col-sm-1" style="color:red">@item.Sum</span>
+                    {
+                        SumExpemse += item.Sum;
+                    }
+                }
+                else
+                {
+                    <span class="col-sm-1" style="color:green;font-weight:bold">@item.Sum</span>
+                    {
+                        SumIncome += item.Sum;
+                    }
+                }
+                <span class="col-sm-3">@item.Comment</span>
+            </div>
+        }
+
+        <div class="row text-center">
+
+            @{
+                rez = SumIncome - SumExpemse;
+            }
+            @if (rez < 0)
+            {
+                <span>Total: </span>
+                <span style="color:red;font-weight:900;font-size:large">@rez</span>
+            }
+            else if (rez > 0)
+            {
+                <span>Total: </span>
+                <span style="color:green;font-weight:900;font-size:large">@rez</span>
+            }
+
+        </div>
+    </div>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+
+@*
+    the script below needs for this code:
+    @Html.EditorFor(model => model.PickedDate, new { htmlAttributes = new { @class = "datepicker" } })*@
+
+<link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
+@section scripts{
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $(".datepicker").datepicker(
+                {
+                    dateFormat: "yy/mm",
+                    changeMonth: true,
+                    changeYear: true,
+                    //yearRange: "2010:2020"
+                    yearRange: "-5:+5",
+                    //minDate: new Date(2016, 0, 1),
+                    //maxDate: "+2Y +1M +10D",
+                    showOn: "both",//                    showOn: "button",
+                    buttonImage: "/Content/calendar.gif",
+                    buttonImageOnly: true,
+                    buttonText: "Select date",
+                    //numberOfMonths: 3,
+                    //showButtonPanel: true,
+                    //showWeek: true
+                }
+            );
+        });
+
+    </script>
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@*@using (Html.BeginForm(actionName: "IncomeExpenseForMonth", controllerName: "Report", method: FormMethod.Get))
+    {
+        <div class="container panel-heading text-center" style="font-weight:bold; background-color:#e98080">
+            <div class="row dl-horizontal">
+                <span>
+                    <label>Report for period: </label>
+                    @Html.DisplayNameFor(m => m.CurrentSelection)
+                    <input type="text" name="CurrentSelection" value="@Model.CurrentSelection" />
+                </span>
+
+                <span>
+                    <label>Report type: </label>
+                    @Html.DropDownList("reportType", EnumHelper.GetSelectList(typeof(ReportType)))
+                </span>
+
+                <span>
+                    <label>For period: </label>
+                    @Html.DropDownList("selectedForPeriod", EnumHelper.GetSelectList(typeof(SelectedForPeriod)))
+                </span>
+
+                <span><input class="btn btn-success" type="submit" name="Submit" value="Get the report" /></span>
+            </div>
+        </div>
+    }*@
+
+
+
+
+
+@*@section scripts{
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#CurrentSelection').datepicker({
+                    dateFormat: "dd/mm/yy",
+                    showStatus: true,
+                    showWeeks: true,
+                    currentText: 'Now',
+                    autoSize: true,
+                    gotoCurrent: true,
+                    showAnim: 'blind',
+                    highlightWeek: true
+                });
+            });
+        </script>
+    }*@

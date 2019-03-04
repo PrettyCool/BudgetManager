@@ -1,0 +1,84 @@
+﻿@model IEnumerable<BudgetManager_V1.Models.IncomeExpenseItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="container">
+
+    <table class="table">
+        <tr>
+            <th>
+                <label>Income/expense group name</label>
+                @*@Html.DisplayNameFor(model => model.IncomeExpenseGroup)*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+
+        <tr><td class="text-center bg-info" colspan="3">Expences:</td></tr>
+        @foreach (var item in Model.Where(t => t.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense")))
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IncomeExpenseGroup.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+        <tr><td class="text-center bg-info" colspan="3">Income:</td></tr>
+        @foreach (var item in Model.Where(t => t.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("income")))
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IncomeExpenseGroup.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+        @*@foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IncomeExpenseGroup.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+                    </td>
+                </tr>
+            }*@
+
+    </table>
+
+</div>
+
+<div class="container">
+    @Html.ActionLink("Back to Db tables list", "Index", "DbTablesAdmin")
+</div>

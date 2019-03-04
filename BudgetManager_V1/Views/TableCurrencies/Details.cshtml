@@ -1,0 +1,122 @@
+﻿@model BudgetManager_V1.Models.Currency
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Currency</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EnglishName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnglishName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ISOCurrencySymbol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISOCurrencySymbol)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrencyNativeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrencyNativeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrencyEnglishName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrencyEnglishName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GeoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GeoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsMetric)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsMetric)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThreeLetterWindowsRegionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThreeLetterWindowsRegionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ThreeLetterISORegionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ThreeLetterISORegionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TwoLetterISORegionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TwoLetterISORegionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NativeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NativeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DisplayName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DisplayName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrencySymbol)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrencySymbol)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

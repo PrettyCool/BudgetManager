@@ -1,0 +1,16 @@
+﻿
+<div class="container">
+    <div class="row">Tables initialization must be selected in accordance to theit number below:</div>
+
+    <div class="row">
+        <label class="col-md-2">1. Account table</label>
+        <span class="btn btn-default"">@Html.ActionLink("Init account table", "InitAccountList", "InitDb")</span>
+        <span class="btn btn-default"">@Html.ActionLink("Clear account table", "ClearAccount", "InitDb")</span>
+    </div>
+
+    <div class="row">
+        <label class="col-md-2">2. Ledger table</label>
+        <span class="btn btn-default">@Html.ActionLink("Init ledger if empty", "LedgerStartInit", "InitDb")</span>
+        <span class="btn btn-default"">@Html.ActionLink("Clear the ledger", "ClearLedger", "InitDb")</span>
+    </div>
+</div>

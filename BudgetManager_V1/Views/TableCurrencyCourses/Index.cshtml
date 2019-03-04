@@ -1,0 +1,103 @@
+﻿@model BudgetManager_V1.Models.VM.CurrencyCourcesViewModels
+
+@using System
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Currency list:</h2>
+
+<p>    @Html.ActionLink("Create New", "Create")</p>
+
+@{
+    var uniqCurNames = from cur in Model.FilterCurrencies
+                       group cur by cur.EnglishName into buf
+                       select new
+                       {
+                           name = buf.Key
+                       };
+}
+
+<div class=" show container">
+
+    <div class="dropdown ">
+
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+            Filter by a currency
+            <span class="caret"></span>
+        </button>
+
+        <ul class="dropdown-menu " style="width:50%">
+            @foreach (var curName in @uniqCurNames)
+            {
+                <li class="dropdown-header disabled">@curName.name</li>
+                foreach (var item in Model.FilterCurrencies.Where(t => t.EnglishName.Equals(curName.name)).Select(t => t).ToList())
+                {
+                    <li>
+                        <div class="text-center"> @Html.ActionLink(item.CurrencyEnglishName, "Index", new { numericCountryCode = item.NumericCountryCode })</div>
+                    </li>
+                }
+            }
+        </ul>
+
+
+    </div>
+
+</div>
+
+@*@using (Html.BeginForm("Index", "TestCurrencyCourses", FormMethod.Get))
+    {
+        <div class="form-inline">
+            <div class="row">
+                <label class="control-label">Currency:</label>
+                @Html.DropDownList("id", Model.FilterCurrencies as SelectList, htmlAttributes: new { @class = "form-control" })
+
+                <input type="submit" name="submit" value="filter" />
+            </div>
+        </div>
+    }*@
+
+<div class="container">
+    <table class="table">
+
+        <tr>
+            <th> EnglishName &nbsp;</th>
+            <th> ISOCurrencySymbol &nbsp;</th>
+            <th> Course &nbsp;</th>
+            <th> Date &nbsp;</th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.CurrencyCourses)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Currency.EnglishName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Currency.ISOCurrencySymbol)
+                </td>
+                <td>
+                    <span style="float:right">
+                        @String.Format("{0:F4}", item.Course)
+                    </span>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+<div class="container">
+    @Html.ActionLink("Back to Db tables list", "Index", "DbTablesAdmin")
+</div>

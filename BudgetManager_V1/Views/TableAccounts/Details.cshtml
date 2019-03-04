@@ -1,0 +1,50 @@
+﻿@model BudgetManager_V1.Models.Account
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Account</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            <label> User</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.UserName)
+        </dd>
+
+        <dt>
+            <label>Currency country</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency.EnglishName)
+        </dd>
+
+        <dt>
+            <label>Currency code</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency.ISOCurrencySymbol)
+        </dd>
+
+        <dt>
+            <label> Account name</label>
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

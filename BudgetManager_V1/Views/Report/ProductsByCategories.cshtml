@@ -1,0 +1,46 @@
+﻿@using BudgetManager_V1.Models
+@model IEnumerable<IGrouping<string, IncomeExpenseItem>>
+
+@{
+    ViewBag.Title = "ProductsByCategories";
+}
+
+<h2>Products by categories</h2>
+
+
+<ul style="list-style-type:none">
+    @foreach (var item in Model)
+    {
+       <li style="font-weight:bold" >@item.Key</li>
+        foreach (var i in item)
+        {
+            <li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@i.Name</span></li>
+        }
+    }
+</ul>
+
+@*<div class="container">
+       <div class="table">
+           <div class="thead">
+               <div class="row table-bordered" style="font-weight:bold">
+                   <span class="col-md-3">Product category</span>
+                   <span class="col-md-4">Product name</span>
+               </div>
+
+               @foreach (IGrouping<string, IncomeExpenseItem> item in Model)
+               {
+                   <div class="row" style="font">
+                       <span>@item.Key</span>
+                   </div>
+
+                   <div class="table-bordered row">
+                       @foreach (IncomeExpenseItem val in item)
+                       {
+                           <div class="col-md-3"></div>
+                           <div>@val.Name</div>
+                       }
+                   </div>
+               }
+           </div>
+       </div>
+    </div>*@

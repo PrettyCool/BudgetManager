@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Reports";
+}
+
+<h2>Select a report:</h2>
+
+
+<div class="container">
+    <div class="row">@Html.ActionLink("Monthly income/expense","IncomeExpenseForMonth", new { currentSelection = DateTime.Now})</div>
+    <div class="row">@Html.ActionLink("Products by categories", "ProductsByCategories")</div>
+    <div class="row">@Html.ActionLink("Totals by categories", "TotalsByCategories")</div>
+    @*<div class="row">@Html.ActionLink("","")</div>
+    <div class="row">@Html.ActionLink("","")</div>
+    <div class="row">@Html.ActionLink("","")</div>
+    <div class="row">@Html.ActionLink("","")</div>*@
+</div>

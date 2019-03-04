@@ -1,0 +1,94 @@
+﻿@model IEnumerable<BudgetManager_V1.Models.Ledger>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>№</th>
+            <th>
+                @Html.ActionLink("Account", "Index", new { sortWay = ViewBag.AccountSort })
+                @*@Html.DisplayNameFor(model => model.Account.Name)*@
+            </th>
+            <th>
+                @Html.ActionLink("Income/Expense", "Index", new { sortWay = ViewBag.IncomeExpenseItemSort })
+                @*@Html.DisplayNameFor(model => model.IncomeExpenseItem.Name)*@
+            </th>
+            <th>
+                @Html.ActionLink("Plan/Fact", "Index", new { sortWay = ViewBag.PlanFactSort })
+                @*@Html.DisplayNameFor(model => model.PlanFact.Name)*@
+            </th>
+            <th>
+                @Html.ActionLink("Date", "Index", new { sortWay = ViewBag.DateSort })
+                @*@Html.DisplayNameFor(model => model.Date)*@
+            </th>
+            <th>
+                Currency
+            </th>
+            <th>
+                @Html.ActionLink("Sum", "Index", new { sortWay = ViewBag.SumSort })
+                @*@Html.DisplayNameFor(model => model.Sum)*@
+            </th>
+            <th>
+                @Html.ActionLink("Expense description", "Index", new { sortWay = ViewBag.CommentSort })
+                @* @Html.DisplayNameFor(model => model.Comment)*@
+            </th>
+            <th>
+                <label>Owner</label>
+            </th>
+            <th></th>
+        </tr>
+
+        @{ int incr = 0;}
+        @foreach (var item in Model)
+        {
+            { incr++; }
+            <tr>
+                <td>@incr</td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Account.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IncomeExpenseItem.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlanFact.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Account.Currency.CurrencyEnglishName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sum)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comment)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Account.ApplicationUser.Email)
+                </td>
+                <td style="font-size:8px">
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+<div class="container">
+    @Html.ActionLink("Back to Db tables list", "Index", "DbTablesAdmin")
+</div>

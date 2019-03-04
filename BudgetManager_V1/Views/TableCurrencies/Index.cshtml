@@ -1,0 +1,85 @@
+﻿@model IEnumerable<BudgetManager_V1.Models.Currency>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="container">
+
+    <table class="table">
+        <tr>
+            <th>№</th>
+            <th>@Html.ActionLink("NumericCountryCode", "Index", new { curSort = ViewBag.NumericCountryCode })</th>
+            <th>@Html.ActionLink("EnglishName", "Index", new { curSort = ViewBag.EnglishName })</th>
+            <th>@Html.ActionLink("ISOCurrencySymbol", "Index", new { curSort = ViewBag.ISOCurrencySymbol })</th>
+            <th>@Html.ActionLink("CurrencyNativeName", "Index", new { curSort = ViewBag.CurrencyNativeName })</th>
+            <th>@Html.ActionLink("CurrencyEnglishName", "Index", new { curSort = ViewBag.CurrencyEnglishName })</th>
+            <th>@Html.ActionLink("ThreeLetterWindowsRegionName", "Index", new { curSort = ViewBag.ThreeLetterWindowsRegionName })</th>
+            <th>@Html.ActionLink("ThreeLetterISORegionName", "Index", new { curSort = ViewBag.ThreeLetterISORegionName })</th>
+            <th>@Html.ActionLink("TwoLetterISORegionName", "Index", new { curSort = ViewBag.TwoLetterISORegionName })</th>
+            <th>@Html.ActionLink("DisplayName", "Index", new { curSort = ViewBag.DisplayName })</th>
+            <th>@Html.ActionLink("Name", "Index", new { curSort = ViewBag.Name })</th>
+            <th>@Html.ActionLink("CurrencySymbol", "Index", new { curSort = ViewBag.CurrencySymbol })</th>
+
+            @*<th><a asp-action="Index" asp-route-curSort="@ViewBag.NumericCountryCode">@Html.DisplayNameFor(model => model.NumericCountryCode) </a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.EnglishName">@Html.DisplayNameFor(model => model.EnglishName)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.ISOCurrencySymbol">@Html.DisplayNameFor(model => model.ISOCurrencySymbol)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.CurrencyNativeName">@Html.DisplayNameFor(model => model.CurrencyNativeName)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.CurrencyEnglishName">@Html.DisplayNameFor(model => model.CurrencyEnglishName) </a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.ThreeLetterWindowsRegionName">@Html.DisplayNameFor(model => model.ThreeLetterWindowsRegionName) </a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.ThreeLetterISORegionName">@Html.DisplayNameFor(model => model.ThreeLetterISORegionName)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.TwoLetterISORegionName">@Html.DisplayNameFor(model => model.TwoLetterISORegionName)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.DisplayName">@Html.DisplayNameFor(model => model.DisplayName)   </a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.Name">@Html.DisplayNameFor(model => model.Name)</a></th>
+                <th><a asp-action="Index" asp-route-curSort="@ViewBag.CurrencySymbol">@Html.DisplayNameFor(model => model.CurrencySymbol)</a></th>*@
+
+
+            @*<th>            @Html.DisplayNameFor(model => model.GeoId)        </th>
+                <th>            @Html.DisplayNameFor(model => model.IsMetric)        </th>*@
+            @*<th>            @Html.DisplayNameFor(model => model.NativeName)        </th>*@
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+
+        @{
+            int counter = 0;
+        }
+        @foreach (var item in Model)
+        {
+            { counter++;}
+            <tr>
+                <td>@counter</td>
+                <td>            @Html.DisplayFor(modelItem => item.NumericCountryCode)        </td>
+                <td>                @Html.DisplayFor(modelItem => item.EnglishName)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.ISOCurrencySymbol)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.CurrencyNativeName)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.CurrencyEnglishName)            </td>
+                @*<td>                @Html.DisplayFor(modelItem => item.GeoId)            </td>
+                    <td>                @Html.DisplayFor(modelItem => item.IsMetric)            </td>*@
+                <td>                @Html.DisplayFor(modelItem => item.ThreeLetterWindowsRegionName)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.ThreeLetterISORegionName)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.TwoLetterISORegionName)            </td>
+                @*<td>                @Html.DisplayFor(modelItem => item.NativeName)            </td>*@
+                <td>                @Html.DisplayFor(modelItem => item.DisplayName)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.Name)            </td>
+                <td>                @Html.DisplayFor(modelItem => item.CurrencySymbol)            </td>
+
+                <td>            @Html.ActionLink("Edit", "Edit", new { id = item.Id })         </td>
+                <td>            @Html.ActionLink("Details", "Details", new { id = item.Id })         </td>
+                <td>            @Html.ActionLink("Delete", "Delete", new { id = item.Id })        </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div class="container">
+    @Html.ActionLink("Back to Db tables list", "Index", "DbTablesAdmin")
+</div>

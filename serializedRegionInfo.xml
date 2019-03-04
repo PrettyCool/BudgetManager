@@ -1,0 +1,2133 @@
+<?xml version="1.0"?>
+<ArrayOfRegionData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RegionData>
+    <CurrencyNativeName>افغانى</CurrencyNativeName>
+    <CurrencyEnglishName>Afghan Afghani</CurrencyEnglishName>
+    <GeoId>3</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>AFG</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>AFG</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AF</TwoLetterISORegionName>
+    <NativeName>افغانستان</NativeName>
+    <DisplayName>Афганистан</DisplayName>
+    <EnglishName>Afghanistan</EnglishName>
+    <Name>AF</Name>
+    <CurrencySymbol>؋</CurrencySymbol>
+    <ISOCurrencySymbol>AFN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Leku shqiptar</CurrencyNativeName>
+    <CurrencyEnglishName>Albanian Lek</CurrencyEnglishName>
+    <GeoId>6</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ALB</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ALB</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AL</TwoLetterISORegionName>
+    <NativeName>Shqipëri</NativeName>
+    <DisplayName>Албания</DisplayName>
+    <EnglishName>Albania</EnglishName>
+    <Name>AL</Name>
+    <CurrencySymbol>Lekë</CurrencySymbol>
+    <ISOCurrencySymbol>ALL</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار جزائري</CurrencyNativeName>
+    <CurrencyEnglishName>Algerian Dinar</CurrencyEnglishName>
+    <GeoId>4</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>DZA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>DZA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>DZ</TwoLetterISORegionName>
+    <NativeName>الجزائر</NativeName>
+    <DisplayName>Алжир</DisplayName>
+    <EnglishName>Algeria</EnglishName>
+    <Name>DZ</Name>
+    <CurrencySymbol>د.ج.‏</CurrencySymbol>
+    <ISOCurrencySymbol>DZD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>peso argentino</CurrencyNativeName>
+    <CurrencyEnglishName>Argentine Peso</CurrencyEnglishName>
+    <GeoId>11</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ARG</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ARG</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AR</TwoLetterISORegionName>
+    <NativeName>Argentina</NativeName>
+    <DisplayName>Аргентина</DisplayName>
+    <EnglishName>Argentina</EnglishName>
+    <Name>AR</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>ARS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>դրամ</CurrencyNativeName>
+    <CurrencyEnglishName>Armenian Dram</CurrencyEnglishName>
+    <GeoId>7</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ARM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ARM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AM</TwoLetterISORegionName>
+    <NativeName>Հայաստան</NativeName>
+    <DisplayName>Армения</DisplayName>
+    <EnglishName>Armenia</EnglishName>
+    <Name>AM</Name>
+    <CurrencySymbol>֏</CurrencySymbol>
+    <ISOCurrencySymbol>AMD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Australian Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Australian Dollar</CurrencyEnglishName>
+    <GeoId>12</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>AUS</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>AUS</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AU</TwoLetterISORegionName>
+    <NativeName>Australia</NativeName>
+    <DisplayName>Австралия</DisplayName>
+    <EnglishName>Australia</EnglishName>
+    <Name>AU</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>AUD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>14</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>AUT</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>AUT</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AT</TwoLetterISORegionName>
+    <NativeName>Österreich</NativeName>
+    <DisplayName>Австрия</DisplayName>
+    <EnglishName>Austria</EnglishName>
+    <Name>AT</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Aзәрбајҹан манаты</CurrencyNativeName>
+    <CurrencyEnglishName>Azerbaijani Manat</CurrencyEnglishName>
+    <GeoId>5</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>AZE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>AZE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AZ</TwoLetterISORegionName>
+    <NativeName>Азәрбајҹан</NativeName>
+    <DisplayName>Азербайджан</DisplayName>
+    <EnglishName>Azerbaijan</EnglishName>
+    <Name>AZ</Name>
+    <CurrencySymbol>₼</CurrencySymbol>
+    <ISOCurrencySymbol>AZN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار بحريني</CurrencyNativeName>
+    <CurrencyEnglishName>Bahraini Dinar</CurrencyEnglishName>
+    <GeoId>17</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BHR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BHR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BH</TwoLetterISORegionName>
+    <NativeName>البحرين</NativeName>
+    <DisplayName>Бахрейн</DisplayName>
+    <EnglishName>Bahrain</EnglishName>
+    <Name>BH</Name>
+    <CurrencySymbol>د.ب.‏</CurrencySymbol>
+    <ISOCurrencySymbol>BHD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>বাংলাদেশী টাকা</CurrencyNativeName>
+    <CurrencyEnglishName>Bangladeshi Taka</CurrencyEnglishName>
+    <GeoId>23</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BGD</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BGD</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BD</TwoLetterISORegionName>
+    <NativeName>বাংলাদেশ</NativeName>
+    <DisplayName>Бангладеш</DisplayName>
+    <EnglishName>Bangladesh</EnglishName>
+    <Name>BD</Name>
+    <CurrencySymbol>৳</CurrencySymbol>
+    <ISOCurrencySymbol>BDT</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>беларускі рубель</CurrencyNativeName>
+    <CurrencyEnglishName>Belarusian Ruble</CurrencyEnglishName>
+    <GeoId>29</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BLR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BLR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BY</TwoLetterISORegionName>
+    <NativeName>Беларусь</NativeName>
+    <DisplayName>Беларусь</DisplayName>
+    <EnglishName>Belarus</EnglishName>
+    <Name>BY</Name>
+    <CurrencySymbol>Br</CurrencySymbol>
+    <ISOCurrencySymbol>BYN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>21</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BEL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BEL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BE</TwoLetterISORegionName>
+    <NativeName>Belgique</NativeName>
+    <DisplayName>Бельгия</DisplayName>
+    <EnglishName>Belgium</EnglishName>
+    <Name>BE</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Belize Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Belize Dollar</CurrencyEnglishName>
+    <GeoId>24</GeoId>
+    <IsMetric>false</IsMetric>
+    <ThreeLetterWindowsRegionName>BLZ</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BLZ</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BZ</TwoLetterISORegionName>
+    <NativeName>Belize</NativeName>
+    <DisplayName>Белиз</DisplayName>
+    <EnglishName>Belize</EnglishName>
+    <Name>BZ</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>BZD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>དངུལ་ཀྲམ</CurrencyNativeName>
+    <CurrencyEnglishName>Bhutanese Ngultrum</CurrencyEnglishName>
+    <GeoId>34</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BTN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BTN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BT</TwoLetterISORegionName>
+    <NativeName>འབྲུག</NativeName>
+    <DisplayName>Бутан</DisplayName>
+    <EnglishName>Bhutan</EnglishName>
+    <Name>BT</Name>
+    <CurrencySymbol>Nu.</CurrencySymbol>
+    <ISOCurrencySymbol>BTN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>boliviano</CurrencyNativeName>
+    <CurrencyEnglishName>Bolivian Boliviano</CurrencyEnglishName>
+    <GeoId>26</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BOL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BOL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BO</TwoLetterISORegionName>
+    <NativeName>Bolivia</NativeName>
+    <DisplayName>Боливия</DisplayName>
+    <EnglishName>Bolivia</EnglishName>
+    <Name>BO</Name>
+    <CurrencySymbol>Bs</CurrencySymbol>
+    <ISOCurrencySymbol>BOB</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>конвертибилна марка</CurrencyNativeName>
+    <CurrencyEnglishName>Bosnia-Herzegovina Convertible Mark</CurrencyEnglishName>
+    <GeoId>25</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BIH</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BIH</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BA</TwoLetterISORegionName>
+    <NativeName>Босна и Херцеговина</NativeName>
+    <DisplayName>Босния и Герцеговина</DisplayName>
+    <EnglishName>Bosnia and Herzegovina</EnglishName>
+    <Name>BA</Name>
+    <CurrencySymbol>КМ</CurrencySymbol>
+    <ISOCurrencySymbol>BAM</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Botswanan Pula</CurrencyNativeName>
+    <CurrencyEnglishName>Botswanan Pula</CurrencyEnglishName>
+    <GeoId>19</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BWA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BWA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BW</TwoLetterISORegionName>
+    <NativeName>Botswana</NativeName>
+    <DisplayName>Ботсвана</DisplayName>
+    <EnglishName>Botswana</EnglishName>
+    <Name>BW</Name>
+    <CurrencySymbol>P</CurrencySymbol>
+    <ISOCurrencySymbol>BWP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Real</CurrencyNativeName>
+    <CurrencyEnglishName>Brazilian Real</CurrencyEnglishName>
+    <GeoId>32</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BRA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BRA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BR</TwoLetterISORegionName>
+    <NativeName>Brasil</NativeName>
+    <DisplayName>Бразилия</DisplayName>
+    <EnglishName>Brazil</EnglishName>
+    <Name>BR</Name>
+    <CurrencySymbol>R$</CurrencySymbol>
+    <ISOCurrencySymbol>BRL</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Dolar Brunei</CurrencyNativeName>
+    <CurrencyEnglishName>Brunei Dollar</CurrencyEnglishName>
+    <GeoId>37</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BRN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BRN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BN</TwoLetterISORegionName>
+    <NativeName>Brunei</NativeName>
+    <DisplayName>Бруней Дар-эс-Салам</DisplayName>
+    <EnglishName>Brunei</EnglishName>
+    <Name>BN</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>BND</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>български лев</CurrencyNativeName>
+    <CurrencyEnglishName>Bulgarian Lev</CurrencyEnglishName>
+    <GeoId>35</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>BGR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>BGR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>BG</TwoLetterISORegionName>
+    <NativeName>България</NativeName>
+    <DisplayName>Болгария</DisplayName>
+    <EnglishName>Bulgaria</EnglishName>
+    <Name>BG</Name>
+    <CurrencySymbol>лв.</CurrencySymbol>
+    <ISOCurrencySymbol>BGN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>x179Aៀល</CurrencyNativeName>
+    <CurrencyEnglishName>Cambodian Riel</CurrencyEnglishName>
+    <GeoId>40</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KHM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KHM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KH</TwoLetterISORegionName>
+    <NativeName>កម្ពុជា</NativeName>
+    <DisplayName>Камбоджа</DisplayName>
+    <EnglishName>Cambodia</EnglishName>
+    <Name>KH</Name>
+    <CurrencySymbol>៛</CurrencySymbol>
+    <ISOCurrencySymbol>KHR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>franc CFA (BEAC)</CurrencyNativeName>
+    <CurrencyEnglishName>Central African CFA Franc</CurrencyEnglishName>
+    <GeoId>49</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CMR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CMR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CM</TwoLetterISORegionName>
+    <NativeName>Cameroun</NativeName>
+    <DisplayName>Камерун</DisplayName>
+    <EnglishName>Cameroon</EnglishName>
+    <Name>CM</Name>
+    <CurrencySymbol>FCFA</CurrencySymbol>
+    <ISOCurrencySymbol>XAF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Canadian Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Canadian Dollar</CurrencyEnglishName>
+    <GeoId>39</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CAN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CAN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CA</TwoLetterISORegionName>
+    <NativeName>Canada</NativeName>
+    <DisplayName>Канада</DisplayName>
+    <EnglishName>Canada</EnglishName>
+    <Name>CA</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>CAD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Eastern Caribbean Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Eastern Caribbean Dollar</CurrencyEnglishName>
+    <GeoId>10039880</GeoId>
+    <IsMetric>false</IsMetric>
+    <ThreeLetterWindowsRegionName>029</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>029</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>029</TwoLetterISORegionName>
+    <NativeName>Caribbean</NativeName>
+    <DisplayName>Карибский</DisplayName>
+    <EnglishName>Caribbean</EnglishName>
+    <Name>029</Name>
+    <CurrencySymbol>EC$</CurrencySymbol>
+    <ISOCurrencySymbol>XCD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Peso</CurrencyNativeName>
+    <CurrencyEnglishName>Chilean Peso</CurrencyEnglishName>
+    <GeoId>46</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CHL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CHL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CL</TwoLetterISORegionName>
+    <NativeName>Chile</NativeName>
+    <DisplayName>Чили</DisplayName>
+    <EnglishName>Chile</EnglishName>
+    <Name>CL</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>CLP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>མི་དམངས་ཤོག་སྒོཪ།</CurrencyNativeName>
+    <CurrencyEnglishName>Chinese Yuan</CurrencyEnglishName>
+    <GeoId>45</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CHN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CHN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CN</TwoLetterISORegionName>
+    <NativeName>ཀྲུང་ཧྭ་མི་དམངས་སྤྱི་མཐུན་རྒྱལ་ཁབ།</NativeName>
+    <DisplayName>Китайская Народная Республика</DisplayName>
+    <EnglishName>China</EnglishName>
+    <Name>CN</Name>
+    <CurrencySymbol>¥</CurrencySymbol>
+    <ISOCurrencySymbol>CNY</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>peso colombiano</CurrencyNativeName>
+    <CurrencyEnglishName>Colombian Peso</CurrencyEnglishName>
+    <GeoId>51</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>COL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>COL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CO</TwoLetterISORegionName>
+    <NativeName>Colombia</NativeName>
+    <DisplayName>Колумбия</DisplayName>
+    <EnglishName>Colombia</EnglishName>
+    <Name>CO</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>COP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>franc congolais</CurrencyNativeName>
+    <CurrencyEnglishName>Congolese Franc</CurrencyEnglishName>
+    <GeoId>44</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>COD</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>COD</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CD</TwoLetterISORegionName>
+    <NativeName>Congo, République démocratique du</NativeName>
+    <DisplayName>Конго (ДРК)</DisplayName>
+    <EnglishName>Congo (DRC)</EnglishName>
+    <Name>CD</Name>
+    <CurrencySymbol>FC</CurrencySymbol>
+    <ISOCurrencySymbol>CDF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>colón costarricense</CurrencyNativeName>
+    <CurrencyEnglishName>Costa Rican Colón</CurrencyEnglishName>
+    <GeoId>54</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CRI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CRI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CR</TwoLetterISORegionName>
+    <NativeName>Costa Rica</NativeName>
+    <DisplayName>Коста-Рика</DisplayName>
+    <EnglishName>Costa Rica</EnglishName>
+    <Name>CR</Name>
+    <CurrencySymbol>₡</CurrencySymbol>
+    <ISOCurrencySymbol>CRC</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>franc CFA (BCEAO)</CurrencyNativeName>
+    <CurrencyEnglishName>West African CFA Franc</CurrencyEnglishName>
+    <GeoId>119</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CIV</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CIV</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CI</TwoLetterISORegionName>
+    <NativeName>Côte d’Ivoire</NativeName>
+    <DisplayName>Кот-д’Ивуар</DisplayName>
+    <EnglishName>Côte d’Ivoire</EnglishName>
+    <Name>CI</Name>
+    <CurrencySymbol>CFA</CurrencySymbol>
+    <ISOCurrencySymbol>XOF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>hrvatska kuna</CurrencyNativeName>
+    <CurrencyEnglishName>Croatian Kuna</CurrencyEnglishName>
+    <GeoId>108</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>HRV</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>HRV</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>HR</TwoLetterISORegionName>
+    <NativeName>Hrvatska</NativeName>
+    <DisplayName>Хорватия</DisplayName>
+    <EnglishName>Croatia</EnglishName>
+    <Name>HR</Name>
+    <CurrencySymbol>kn</CurrencySymbol>
+    <ISOCurrencySymbol>HRK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>peso cubano</CurrencyNativeName>
+    <CurrencyEnglishName>Cuban Peso</CurrencyEnglishName>
+    <GeoId>56</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CUB</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CUB</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CU</TwoLetterISORegionName>
+    <NativeName>Cuba</NativeName>
+    <DisplayName>Куба</DisplayName>
+    <EnglishName>Cuba</EnglishName>
+    <Name>CU</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>CUP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>česká koruna</CurrencyNativeName>
+    <CurrencyEnglishName>Czech Koruna</CurrencyEnglishName>
+    <GeoId>75</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CZE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CZE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CZ</TwoLetterISORegionName>
+    <NativeName>Česko</NativeName>
+    <DisplayName>Чешская республика</DisplayName>
+    <EnglishName>Czechia</EnglishName>
+    <Name>CZ</Name>
+    <CurrencySymbol>Kč</CurrencySymbol>
+    <ISOCurrencySymbol>CZK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Dansk krone</CurrencyNativeName>
+    <CurrencyEnglishName>Danish Krone</CurrencyEnglishName>
+    <GeoId>61</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>DNK</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>DNK</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>DK</TwoLetterISORegionName>
+    <NativeName>Danmark</NativeName>
+    <DisplayName>Дания</DisplayName>
+    <EnglishName>Denmark</EnglishName>
+    <Name>DK</Name>
+    <CurrencySymbol>kr.</CurrencySymbol>
+    <ISOCurrencySymbol>DKK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Djiboutian Franc</CurrencyNativeName>
+    <CurrencyEnglishName>Djiboutian Franc</CurrencyEnglishName>
+    <GeoId>62</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>DJI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>DJI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>DJ</TwoLetterISORegionName>
+    <NativeName>Yabuuti</NativeName>
+    <DisplayName>Джибути</DisplayName>
+    <EnglishName>Djibouti</EnglishName>
+    <Name>DJ</Name>
+    <CurrencySymbol>Fdj</CurrencySymbol>
+    <ISOCurrencySymbol>DJF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>peso dominicano</CurrencyNativeName>
+    <CurrencyEnglishName>Dominican Peso</CurrencyEnglishName>
+    <GeoId>65</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>DOM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>DOM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>DO</TwoLetterISORegionName>
+    <NativeName>República Dominicana</NativeName>
+    <DisplayName>Доминиканская Республика</DisplayName>
+    <EnglishName>Dominican Republic</EnglishName>
+    <Name>DO</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>DOP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>dólar estadounidense</CurrencyNativeName>
+    <CurrencyEnglishName>US Dollar</CurrencyEnglishName>
+    <GeoId>66</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ECU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ECU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>EC</TwoLetterISORegionName>
+    <NativeName>Ecuador</NativeName>
+    <DisplayName>Эквадор</DisplayName>
+    <EnglishName>Ecuador</EnglishName>
+    <Name>EC</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>USD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>جنيه مصري</CurrencyNativeName>
+    <CurrencyEnglishName>Egyptian Pound</CurrencyEnglishName>
+    <GeoId>67</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>EGY</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>EGY</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>EG</TwoLetterISORegionName>
+    <NativeName>مصر</NativeName>
+    <DisplayName>Египет</DisplayName>
+    <EnglishName>Egypt</EnglishName>
+    <Name>EG</Name>
+    <CurrencySymbol>ج.م.‏</CurrencySymbol>
+    <ISOCurrencySymbol>EGP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>dólar estadounidense</CurrencyNativeName>
+    <CurrencyEnglishName>US Dollar</CurrencyEnglishName>
+    <GeoId>72</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SLV</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SLV</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SV</TwoLetterISORegionName>
+    <NativeName>El Salvador</NativeName>
+    <DisplayName>Сальвадор</DisplayName>
+    <EnglishName>El Salvador</EnglishName>
+    <Name>SV</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>USD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Eritrean Nakfa</CurrencyNativeName>
+    <CurrencyEnglishName>Eritrean Nakfa</CurrencyEnglishName>
+    <GeoId>71</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ERI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ERI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ER</TwoLetterISORegionName>
+    <NativeName>ኤርትራ</NativeName>
+    <DisplayName>Эритрея</DisplayName>
+    <EnglishName>Eritrea</EnglishName>
+    <Name>ER</Name>
+    <CurrencySymbol>Nfk</CurrencySymbol>
+    <ISOCurrencySymbol>ERN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>70</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>EST</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>EST</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>EE</TwoLetterISORegionName>
+    <NativeName>Eesti</NativeName>
+    <DisplayName>Эстония</DisplayName>
+    <EnglishName>Estonia</EnglishName>
+    <Name>EE</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>የኢትዮጵያ ብር</CurrencyNativeName>
+    <CurrencyEnglishName>Ethiopian Birr</CurrencyEnglishName>
+    <GeoId>73</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ETH</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ETH</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ET</TwoLetterISORegionName>
+    <NativeName>ኢትዮጵያ</NativeName>
+    <DisplayName>Эфиопия</DisplayName>
+    <EnglishName>Ethiopia</EnglishName>
+    <Name>ET</Name>
+    <CurrencySymbol>ብር</CurrencySymbol>
+    <ISOCurrencySymbol>ETB</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>donsk króna</CurrencyNativeName>
+    <CurrencyEnglishName>Danish Krone</CurrencyEnglishName>
+    <GeoId>81</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>FRO</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>FRO</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>FO</TwoLetterISORegionName>
+    <NativeName>Føroyar</NativeName>
+    <DisplayName>Фарерские острова</DisplayName>
+    <EnglishName>Faroe Islands</EnglishName>
+    <Name>FO</Name>
+    <CurrencySymbol>kr</CurrencySymbol>
+    <ISOCurrencySymbol>DKK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>77</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>FIN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>FIN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>FI</TwoLetterISORegionName>
+    <NativeName>Suomi</NativeName>
+    <DisplayName>Финляндия</DisplayName>
+    <EnglishName>Finland</EnglishName>
+    <Name>FI</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>84</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>FRA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>FRA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>FR</TwoLetterISORegionName>
+    <NativeName>Frañs</NativeName>
+    <DisplayName>Франция</DisplayName>
+    <EnglishName>France</EnglishName>
+    <Name>FR</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ქართული ლარი</CurrencyNativeName>
+    <CurrencyEnglishName>Georgian Lari</CurrencyEnglishName>
+    <GeoId>88</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>GEO</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>GEO</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>GE</TwoLetterISORegionName>
+    <NativeName>საქართველო</NativeName>
+    <DisplayName>Грузия</DisplayName>
+    <EnglishName>Georgia</EnglishName>
+    <Name>GE</Name>
+    <CurrencySymbol>₾</CurrencySymbol>
+    <ISOCurrencySymbol>GEL</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>94</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>DEU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>DEU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>DE</TwoLetterISORegionName>
+    <NativeName>Deutschland</NativeName>
+    <DisplayName>Германия</DisplayName>
+    <EnglishName>Germany</EnglishName>
+    <Name>DE</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ευρώ</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>98</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>GRC</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>GRC</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>GR</TwoLetterISORegionName>
+    <NativeName>Ελλάδα</NativeName>
+    <DisplayName>Греция</DisplayName>
+    <EnglishName>Greece</EnglishName>
+    <Name>GR</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>kuruuni</CurrencyNativeName>
+    <CurrencyEnglishName>Danish Krone</CurrencyEnglishName>
+    <GeoId>93</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>GRL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>GRL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>GL</TwoLetterISORegionName>
+    <NativeName>Kalaallit Nunaat</NativeName>
+    <DisplayName>Гренландия</DisplayName>
+    <EnglishName>Greenland</EnglishName>
+    <Name>GL</Name>
+    <CurrencySymbol>kr.</CurrencySymbol>
+    <ISOCurrencySymbol>DKK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>quetzal</CurrencyNativeName>
+    <CurrencyEnglishName>Guatemalan Quetzal</CurrencyEnglishName>
+    <GeoId>99</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>GTM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>GTM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>GT</TwoLetterISORegionName>
+    <NativeName>Guatemala</NativeName>
+    <DisplayName>Гватемала</DisplayName>
+    <EnglishName>Guatemala</EnglishName>
+    <Name>GT</Name>
+    <CurrencySymbol>Q</CurrencySymbol>
+    <ISOCurrencySymbol>GTQ</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>gourde haïtienne</CurrencyNativeName>
+    <CurrencyEnglishName>Haitian Gourde</CurrencyEnglishName>
+    <GeoId>103</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>HTI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>HTI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>HT</TwoLetterISORegionName>
+    <NativeName>Haïti</NativeName>
+    <DisplayName>Гаити</DisplayName>
+    <EnglishName>Haiti</EnglishName>
+    <Name>HT</Name>
+    <CurrencySymbol>G</CurrencySymbol>
+    <ISOCurrencySymbol>HTG</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>lempira hondureño</CurrencyNativeName>
+    <CurrencyEnglishName>Honduran Lempira</CurrencyEnglishName>
+    <GeoId>106</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>HND</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>HND</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>HN</TwoLetterISORegionName>
+    <NativeName>Honduras</NativeName>
+    <DisplayName>Гондурас</DisplayName>
+    <EnglishName>Honduras</EnglishName>
+    <Name>HN</Name>
+    <CurrencySymbol>L</CurrencySymbol>
+    <ISOCurrencySymbol>HNL</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Hong Kong Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Hong Kong Dollar</CurrencyEnglishName>
+    <GeoId>104</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>HKG</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>HKG</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>HK</TwoLetterISORegionName>
+    <NativeName>Hong Kong SAR</NativeName>
+    <DisplayName>Гонконг</DisplayName>
+    <EnglishName>Hong Kong SAR</EnglishName>
+    <Name>HK</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>HKD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>magyar forint</CurrencyNativeName>
+    <CurrencyEnglishName>Hungarian Forint</CurrencyEnglishName>
+    <GeoId>109</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>HUN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>HUN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>HU</TwoLetterISORegionName>
+    <NativeName>Magyarország</NativeName>
+    <DisplayName>Венгрия</DisplayName>
+    <EnglishName>Hungary</EnglishName>
+    <Name>HU</Name>
+    <CurrencySymbol>Ft</CurrencySymbol>
+    <ISOCurrencySymbol>HUF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>íslensk króna</CurrencyNativeName>
+    <CurrencyEnglishName>Icelandic Króna</CurrencyEnglishName>
+    <GeoId>110</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ISL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ISL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IS</TwoLetterISORegionName>
+    <NativeName>Ísland</NativeName>
+    <DisplayName>Исландия</DisplayName>
+    <EnglishName>Iceland</EnglishName>
+    <Name>IS</Name>
+    <CurrencySymbol>ISK</CurrencySymbol>
+    <ISOCurrencySymbol>ISK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>টকা</CurrencyNativeName>
+    <CurrencyEnglishName>Indian Rupee</CurrencyEnglishName>
+    <GeoId>113</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>IND</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>IND</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IN</TwoLetterISORegionName>
+    <NativeName>ভাৰত</NativeName>
+    <DisplayName>Индия</DisplayName>
+    <EnglishName>India</EnglishName>
+    <Name>IN</Name>
+    <CurrencySymbol>₹</CurrencySymbol>
+    <ISOCurrencySymbol>INR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Rupiah</CurrencyNativeName>
+    <CurrencyEnglishName>Indonesian Rupiah</CurrencyEnglishName>
+    <GeoId>111</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>IDN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>IDN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ID</TwoLetterISORegionName>
+    <NativeName>Indonesia</NativeName>
+    <DisplayName>Индонезия</DisplayName>
+    <EnglishName>Indonesia</EnglishName>
+    <Name>ID</Name>
+    <CurrencySymbol>Rp</CurrencySymbol>
+    <ISOCurrencySymbol>IDR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ریال</CurrencyNativeName>
+    <CurrencyEnglishName>Iranian Rial</CurrencyEnglishName>
+    <GeoId>116</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>IRN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>IRN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IR</TwoLetterISORegionName>
+    <NativeName>ایران</NativeName>
+    <DisplayName>Иран</DisplayName>
+    <EnglishName>Iran</EnglishName>
+    <Name>IR</Name>
+    <CurrencySymbol>ريال</CurrencySymbol>
+    <ISOCurrencySymbol>IRR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار عراقي</CurrencyNativeName>
+    <CurrencyEnglishName>Iraqi Dinar</CurrencyEnglishName>
+    <GeoId>121</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>IRQ</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>IRQ</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IQ</TwoLetterISORegionName>
+    <NativeName>العراق</NativeName>
+    <DisplayName>Ирак</DisplayName>
+    <EnglishName>Iraq</EnglishName>
+    <Name>IQ</Name>
+    <CurrencySymbol>د.ع.‏</CurrencySymbol>
+    <ISOCurrencySymbol>IQD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>68</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>IRL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>IRL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IE</TwoLetterISORegionName>
+    <NativeName>Ireland</NativeName>
+    <DisplayName>Ирландия</DisplayName>
+    <EnglishName>Ireland</EnglishName>
+    <Name>IE</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>שקל חדש</CurrencyNativeName>
+    <CurrencyEnglishName>Israeli New Shekel</CurrencyEnglishName>
+    <GeoId>117</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ISR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ISR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IL</TwoLetterISORegionName>
+    <NativeName>ישראל</NativeName>
+    <DisplayName>Израиль</DisplayName>
+    <EnglishName>Israel</EnglishName>
+    <Name>IL</Name>
+    <CurrencySymbol>₪</CurrencySymbol>
+    <ISOCurrencySymbol>ILS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>118</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ITA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ITA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>IT</TwoLetterISORegionName>
+    <NativeName>Italia</NativeName>
+    <DisplayName>Италия</DisplayName>
+    <EnglishName>Italy</EnglishName>
+    <Name>IT</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Jamaican Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Jamaican Dollar</CurrencyEnglishName>
+    <GeoId>124</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>JAM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>JAM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>JM</TwoLetterISORegionName>
+    <NativeName>Jamaica</NativeName>
+    <DisplayName>Ямайка</DisplayName>
+    <EnglishName>Jamaica</EnglishName>
+    <Name>JM</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>JMD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>円</CurrencyNativeName>
+    <CurrencyEnglishName>Japanese Yen</CurrencyEnglishName>
+    <GeoId>122</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>JPN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>JPN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>JP</TwoLetterISORegionName>
+    <NativeName>日本</NativeName>
+    <DisplayName>Япония</DisplayName>
+    <EnglishName>Japan</EnglishName>
+    <Name>JP</Name>
+    <CurrencySymbol>¥</CurrencySymbol>
+    <ISOCurrencySymbol>JPY</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار اردني</CurrencyNativeName>
+    <CurrencyEnglishName>Jordanian Dinar</CurrencyEnglishName>
+    <GeoId>126</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>JOR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>JOR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>JO</TwoLetterISORegionName>
+    <NativeName>الأردن</NativeName>
+    <DisplayName>Иордания</DisplayName>
+    <EnglishName>Jordan</EnglishName>
+    <Name>JO</Name>
+    <CurrencySymbol>د.ا.‏</CurrencySymbol>
+    <ISOCurrencySymbol>JOD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Қазақстан теңгесі</CurrencyNativeName>
+    <CurrencyEnglishName>Kazakhstani Tenge</CurrencyEnglishName>
+    <GeoId>137</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KAZ</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KAZ</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KZ</TwoLetterISORegionName>
+    <NativeName>Қазақстан</NativeName>
+    <DisplayName>Казахстан</DisplayName>
+    <EnglishName>Kazakhstan</EnglishName>
+    <Name>KZ</Name>
+    <CurrencySymbol>₸</CurrencySymbol>
+    <ISOCurrencySymbol>KZT</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Shilingi ya Kenya</CurrencyNativeName>
+    <CurrencyEnglishName>Kenyan Shilling</CurrencyEnglishName>
+    <GeoId>129</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KEN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KEN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KE</TwoLetterISORegionName>
+    <NativeName>Kenya</NativeName>
+    <DisplayName>Кения</DisplayName>
+    <EnglishName>Kenya</EnglishName>
+    <Name>KE</Name>
+    <CurrencySymbol>Ksh</CurrencySymbol>
+    <ISOCurrencySymbol>KES</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>원</CurrencyNativeName>
+    <CurrencyEnglishName>South Korean Won</CurrencyEnglishName>
+    <GeoId>134</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KOR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KOR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KR</TwoLetterISORegionName>
+    <NativeName>대한민국</NativeName>
+    <DisplayName>Южная Корея</DisplayName>
+    <EnglishName>Korea</EnglishName>
+    <Name>KR</Name>
+    <CurrencySymbol>₩</CurrencySymbol>
+    <ISOCurrencySymbol>KRW</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار كويتي</CurrencyNativeName>
+    <CurrencyEnglishName>Kuwaiti Dinar</CurrencyEnglishName>
+    <GeoId>136</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KWT</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KWT</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KW</TwoLetterISORegionName>
+    <NativeName>الكويت</NativeName>
+    <DisplayName>Кувейт</DisplayName>
+    <EnglishName>Kuwait</EnglishName>
+    <Name>KW</Name>
+    <CurrencySymbol>د.ك.‏</CurrencySymbol>
+    <ISOCurrencySymbol>KWD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>сом</CurrencyNativeName>
+    <CurrencyEnglishName>Kyrgystani Som</CurrencyEnglishName>
+    <GeoId>130</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>KGZ</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>KGZ</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>KG</TwoLetterISORegionName>
+    <NativeName>Кыргызстан</NativeName>
+    <DisplayName>Киргизия</DisplayName>
+    <EnglishName>Kyrgyzstan</EnglishName>
+    <Name>KG</Name>
+    <CurrencySymbol>сом</CurrencySymbol>
+    <ISOCurrencySymbol>KGS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ລາວ ກີບ</CurrencyNativeName>
+    <CurrencyEnglishName>Laotian Kip</CurrencyEnglishName>
+    <GeoId>138</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LAO</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LAO</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LA</TwoLetterISORegionName>
+    <NativeName>ລາວ</NativeName>
+    <DisplayName>Лаосская Народно-Демократическая Республика</DisplayName>
+    <EnglishName>Laos</EnglishName>
+    <Name>LA</Name>
+    <CurrencySymbol>₭</CurrencySymbol>
+    <ISOCurrencySymbol>LAK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>derechos especiales de giro</CurrencyNativeName>
+    <CurrencyEnglishName>Special Drawing Rights</CurrencyEnglishName>
+    <GeoId>161832257</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>419</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>419</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>419</TwoLetterISORegionName>
+    <NativeName>Latinoamérica</NativeName>
+    <DisplayName>Латинская Америка</DisplayName>
+    <EnglishName>Latin America</EnglishName>
+    <Name>419</Name>
+    <CurrencySymbol>XDR</CurrencySymbol>
+    <ISOCurrencySymbol>XDR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>eiro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>140</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LVA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LVA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LV</TwoLetterISORegionName>
+    <NativeName>Latvija</NativeName>
+    <DisplayName>Латвия</DisplayName>
+    <EnglishName>Latvia</EnglishName>
+    <Name>LV</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ليرة لبناني</CurrencyNativeName>
+    <CurrencyEnglishName>Lebanese Pound</CurrencyEnglishName>
+    <GeoId>139</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LBN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LBN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LB</TwoLetterISORegionName>
+    <NativeName>لبنان</NativeName>
+    <DisplayName>Ливан</DisplayName>
+    <EnglishName>Lebanon</EnglishName>
+    <Name>LB</Name>
+    <CurrencySymbol>ل.ل.‏</CurrencySymbol>
+    <ISOCurrencySymbol>LBP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار ليبي</CurrencyNativeName>
+    <CurrencyEnglishName>Libyan Dinar</CurrencyEnglishName>
+    <GeoId>148</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LBY</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LBY</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LY</TwoLetterISORegionName>
+    <NativeName>ليبيا</NativeName>
+    <DisplayName>Ливия</DisplayName>
+    <EnglishName>Libya</EnglishName>
+    <Name>LY</Name>
+    <CurrencySymbol>د.ل.‏</CurrencySymbol>
+    <ISOCurrencySymbol>LYD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Schweizer Franken</CurrencyNativeName>
+    <CurrencyEnglishName>Swiss Franc</CurrencyEnglishName>
+    <GeoId>145</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LIE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LIE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LI</TwoLetterISORegionName>
+    <NativeName>Liechtenstein</NativeName>
+    <DisplayName>Лихтенштейн</DisplayName>
+    <EnglishName>Liechtenstein</EnglishName>
+    <Name>LI</Name>
+    <CurrencySymbol>CHF</CurrencySymbol>
+    <ISOCurrencySymbol>CHF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euras</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>141</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LTU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LTU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LT</TwoLetterISORegionName>
+    <NativeName>Lietuva</NativeName>
+    <DisplayName>Литва</DisplayName>
+    <EnglishName>Lithuania</EnglishName>
+    <Name>LT</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>147</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LUX</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LUX</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LU</TwoLetterISORegionName>
+    <NativeName>Luxemburg</NativeName>
+    <DisplayName>Люксембург</DisplayName>
+    <EnglishName>Luxembourg</EnglishName>
+    <Name>LU</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>澳門幣</CurrencyNativeName>
+    <CurrencyEnglishName>Macanese Pataca</CurrencyEnglishName>
+    <GeoId>151</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MAC</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MAC</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MO</TwoLetterISORegionName>
+    <NativeName>澳門特別行政區</NativeName>
+    <DisplayName>Макао</DisplayName>
+    <EnglishName>Macao SAR</EnglishName>
+    <Name>MO</Name>
+    <CurrencySymbol>MOP</CurrencySymbol>
+    <ISOCurrencySymbol>MOP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Македонски денар</CurrencyNativeName>
+    <CurrencyEnglishName>Macedonian Denar</CurrencyEnglishName>
+    <GeoId>19618</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MKD</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MKD</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MK</TwoLetterISORegionName>
+    <NativeName>Република Македонија</NativeName>
+    <DisplayName>Македония (Бывшая Югославская Республика Македония)</DisplayName>
+    <EnglishName>Macedonia, FYRO</EnglishName>
+    <Name>MK</Name>
+    <CurrencySymbol>ден</CurrencySymbol>
+    <ISOCurrencySymbol>MKD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Ringgit Malaysia</CurrencyNativeName>
+    <CurrencyEnglishName>Malaysian Ringgit</CurrencyEnglishName>
+    <GeoId>167</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MYS</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MYS</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MY</TwoLetterISORegionName>
+    <NativeName>Malaysia</NativeName>
+    <DisplayName>Малайзия</DisplayName>
+    <EnglishName>Malaysia</EnglishName>
+    <Name>MY</Name>
+    <CurrencySymbol>RM</CurrencySymbol>
+    <ISOCurrencySymbol>MYR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ރުފިޔާ</CurrencyNativeName>
+    <CurrencyEnglishName>Maldivian Rufiyaa</CurrencyEnglishName>
+    <GeoId>165</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MDV</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MDV</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MV</TwoLetterISORegionName>
+    <NativeName>ދިވެހި ރާއްޖެ</NativeName>
+    <DisplayName>Мальдивские о-ва</DisplayName>
+    <EnglishName>Maldives</EnglishName>
+    <Name>MV</Name>
+    <CurrencySymbol>ރ.</CurrencySymbol>
+    <ISOCurrencySymbol>MVR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>franc CFA (BCEAO)</CurrencyNativeName>
+    <CurrencyEnglishName>West African CFA Franc</CurrencyEnglishName>
+    <GeoId>157</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MLI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MLI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ML</TwoLetterISORegionName>
+    <NativeName>Mali</NativeName>
+    <DisplayName>Мали</DisplayName>
+    <EnglishName>Mali</EnglishName>
+    <Name>ML</Name>
+    <CurrencySymbol>CFA</CurrencySymbol>
+    <ISOCurrencySymbol>XOF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ewro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>163</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MLT</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MLT</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MT</TwoLetterISORegionName>
+    <NativeName>Malta</NativeName>
+    <DisplayName>Мальта</DisplayName>
+    <EnglishName>Malta</EnglishName>
+    <Name>MT</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Peso</CurrencyNativeName>
+    <CurrencyEnglishName>Mexican Peso</CurrencyEnglishName>
+    <GeoId>166</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MEX</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MEX</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MX</TwoLetterISORegionName>
+    <NativeName>México</NativeName>
+    <DisplayName>Мексика</DisplayName>
+    <EnglishName>Mexico</EnglishName>
+    <Name>MX</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>MXN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>leu moldovenesc</CurrencyNativeName>
+    <CurrencyEnglishName>Moldovan Leu</CurrencyEnglishName>
+    <GeoId>152</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MDA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MDA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MD</TwoLetterISORegionName>
+    <NativeName>Republica Moldova</NativeName>
+    <DisplayName>Молдова</DisplayName>
+    <EnglishName>Moldova</EnglishName>
+    <Name>MD</Name>
+    <CurrencySymbol>L</CurrencySymbol>
+    <ISOCurrencySymbol>MDL</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>158</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MCO</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MCO</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MC</TwoLetterISORegionName>
+    <NativeName>Monaco</NativeName>
+    <DisplayName>Монако</DisplayName>
+    <EnglishName>Monaco</EnglishName>
+    <Name>MC</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>төгрөг</CurrencyNativeName>
+    <CurrencyEnglishName>Mongolian Tugrik</CurrencyEnglishName>
+    <GeoId>154</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MNG</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MNG</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MN</TwoLetterISORegionName>
+    <NativeName>Монгол</NativeName>
+    <DisplayName>Монголия</DisplayName>
+    <EnglishName>Mongolia</EnglishName>
+    <Name>MN</Name>
+    <CurrencySymbol>₮</CurrencySymbol>
+    <ISOCurrencySymbol>MNT</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>евро</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>270</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MNE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MNE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ME</TwoLetterISORegionName>
+    <NativeName>Црна Гора</NativeName>
+    <DisplayName>Черногория</DisplayName>
+    <EnglishName>Montenegro</EnglishName>
+    <Name>ME</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>درهم مغربي</CurrencyNativeName>
+    <CurrencyEnglishName>Moroccan Dirham</CurrencyEnglishName>
+    <GeoId>159</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MAR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MAR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MA</TwoLetterISORegionName>
+    <NativeName>المملكة المغربية</NativeName>
+    <DisplayName>Марокко</DisplayName>
+    <EnglishName>Morocco</EnglishName>
+    <Name>MA</Name>
+    <CurrencySymbol>د.م.‏</CurrencySymbol>
+    <ISOCurrencySymbol>MAD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>မြန်မာကျပ်</CurrencyNativeName>
+    <CurrencyEnglishName>Myanmar Kyat</CurrencyEnglishName>
+    <GeoId>27</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>MMR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>MMR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>MM</TwoLetterISORegionName>
+    <NativeName>မြန်မာ</NativeName>
+    <DisplayName>Мьянма</DisplayName>
+    <EnglishName>Myanmar</EnglishName>
+    <Name>MM</Name>
+    <CurrencySymbol>K</CurrencySymbol>
+    <ISOCurrencySymbol>MMK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>रुपैयाँ</CurrencyNativeName>
+    <CurrencyEnglishName>Nepalese Rupee</CurrencyEnglishName>
+    <GeoId>178</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NPL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NPL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NP</TwoLetterISORegionName>
+    <NativeName>नेपाल</NativeName>
+    <DisplayName>Непал</DisplayName>
+    <EnglishName>Nepal</EnglishName>
+    <Name>NP</Name>
+    <CurrencySymbol>रु</CurrencySymbol>
+    <ISOCurrencySymbol>NPR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>176</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NLD</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NLD</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NL</TwoLetterISORegionName>
+    <NativeName>Nederlân</NativeName>
+    <DisplayName>Нидерланды</DisplayName>
+    <EnglishName>Netherlands</EnglishName>
+    <Name>NL</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>New Zealand Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>New Zealand Dollar</CurrencyEnglishName>
+    <GeoId>183</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NZL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NZL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NZ</TwoLetterISORegionName>
+    <NativeName>New Zealand</NativeName>
+    <DisplayName>Новая Зеландия</DisplayName>
+    <EnglishName>New Zealand</EnglishName>
+    <Name>NZ</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>NZD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>córdoba nicaragüense</CurrencyNativeName>
+    <CurrencyEnglishName>Nicaraguan Córdoba</CurrencyEnglishName>
+    <GeoId>182</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NIC</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NIC</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NI</TwoLetterISORegionName>
+    <NativeName>Nicaragua</NativeName>
+    <DisplayName>Никарагуа</DisplayName>
+    <EnglishName>Nicaragua</EnglishName>
+    <Name>NI</Name>
+    <CurrencySymbol>C$</CurrencySymbol>
+    <ISOCurrencySymbol>NIO</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Nigerian Naira</CurrencyNativeName>
+    <CurrencyEnglishName>Nigerian Naira</CurrencyEnglishName>
+    <GeoId>175</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NGA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NGA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NG</TwoLetterISORegionName>
+    <NativeName>Nigeria</NativeName>
+    <DisplayName>Нигерия</DisplayName>
+    <EnglishName>Nigeria</EnglishName>
+    <Name>NG</Name>
+    <CurrencySymbol>₦</CurrencySymbol>
+    <ISOCurrencySymbol>NGN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>norske kroner</CurrencyNativeName>
+    <CurrencyEnglishName>Norwegian Krone</CurrencyEnglishName>
+    <GeoId>177</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>NOR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>NOR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>NO</TwoLetterISORegionName>
+    <NativeName>Norge</NativeName>
+    <DisplayName>Норвегия</DisplayName>
+    <EnglishName>Norway</EnglishName>
+    <Name>NO</Name>
+    <CurrencySymbol>kr</CurrencySymbol>
+    <ISOCurrencySymbol>NOK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ريال عماني</CurrencyNativeName>
+    <CurrencyEnglishName>Omani Rial</CurrencyEnglishName>
+    <GeoId>164</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>OMN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>OMN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>OM</TwoLetterISORegionName>
+    <NativeName>عمان</NativeName>
+    <DisplayName>Оман</DisplayName>
+    <EnglishName>Oman</EnglishName>
+    <Name>OM</Name>
+    <CurrencySymbol>ر.ع.‏</CurrencySymbol>
+    <ISOCurrencySymbol>OMR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>روپيه</CurrencyNativeName>
+    <CurrencyEnglishName>Pakistani Rupee</CurrencyEnglishName>
+    <GeoId>190</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PAK</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PAK</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PK</TwoLetterISORegionName>
+    <NativeName>پاکستان</NativeName>
+    <DisplayName>Исламская Республика Пакистан</DisplayName>
+    <EnglishName>Pakistan</EnglishName>
+    <Name>PK</Name>
+    <CurrencySymbol>Rs</CurrencySymbol>
+    <ISOCurrencySymbol>PKR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>balboa panameño</CurrencyNativeName>
+    <CurrencyEnglishName>Panamanian Balboa</CurrencyEnglishName>
+    <GeoId>192</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PAN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PAN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PA</TwoLetterISORegionName>
+    <NativeName>Panamá</NativeName>
+    <DisplayName>Панама</DisplayName>
+    <EnglishName>Panama</EnglishName>
+    <Name>PA</Name>
+    <CurrencySymbol>B/.</CurrencySymbol>
+    <ISOCurrencySymbol>PAB</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>guaraní paraguayo</CurrencyNativeName>
+    <CurrencyEnglishName>Paraguayan Guarani</CurrencyEnglishName>
+    <GeoId>185</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PRY</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PRY</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PY</TwoLetterISORegionName>
+    <NativeName>Paraguay</NativeName>
+    <DisplayName>Парагвай</DisplayName>
+    <EnglishName>Paraguay</EnglishName>
+    <Name>PY</Name>
+    <CurrencySymbol>₲</CurrencySymbol>
+    <ISOCurrencySymbol>PYG</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>sol peruano</CurrencyNativeName>
+    <CurrencyEnglishName>Peruvian Sol</CurrencyEnglishName>
+    <GeoId>187</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PER</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PER</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PE</TwoLetterISORegionName>
+    <NativeName>Perú</NativeName>
+    <DisplayName>Перу</DisplayName>
+    <EnglishName>Peru</EnglishName>
+    <Name>PE</Name>
+    <CurrencySymbol>S/</CurrencySymbol>
+    <ISOCurrencySymbol>PEN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Philippine Peso</CurrencyNativeName>
+    <CurrencyEnglishName>Philippine Peso</CurrencyEnglishName>
+    <GeoId>201</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PHL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PHL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PH</TwoLetterISORegionName>
+    <NativeName>Philippines</NativeName>
+    <DisplayName>Филиппины</DisplayName>
+    <EnglishName>Philippines</EnglishName>
+    <Name>PH</Name>
+    <CurrencySymbol>₱</CurrencySymbol>
+    <ISOCurrencySymbol>PHP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>złoty polski</CurrencyNativeName>
+    <CurrencyEnglishName>Polish Zloty</CurrencyEnglishName>
+    <GeoId>191</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>POL</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>POL</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PL</TwoLetterISORegionName>
+    <NativeName>Polska</NativeName>
+    <DisplayName>Польша</DisplayName>
+    <EnglishName>Poland</EnglishName>
+    <Name>PL</Name>
+    <CurrencySymbol>zł</CurrencySymbol>
+    <ISOCurrencySymbol>PLN</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>193</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>PRT</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PRT</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PT</TwoLetterISORegionName>
+    <NativeName>Portugal</NativeName>
+    <DisplayName>Португалия</DisplayName>
+    <EnglishName>Portugal</EnglishName>
+    <Name>PT</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>dólar estadounidense</CurrencyNativeName>
+    <CurrencyEnglishName>US Dollar</CurrencyEnglishName>
+    <GeoId>202</GeoId>
+    <IsMetric>false</IsMetric>
+    <ThreeLetterWindowsRegionName>PRI</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>PRI</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>PR</TwoLetterISORegionName>
+    <NativeName>Puerto Rico</NativeName>
+    <DisplayName>Пуэрто-Рико</DisplayName>
+    <EnglishName>Puerto Rico</EnglishName>
+    <Name>PR</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>USD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ريال قطري</CurrencyNativeName>
+    <CurrencyEnglishName>Qatari Rial</CurrencyEnglishName>
+    <GeoId>197</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>QAT</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>QAT</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>QA</TwoLetterISORegionName>
+    <NativeName>قطر</NativeName>
+    <DisplayName>Катар</DisplayName>
+    <EnglishName>Qatar</EnglishName>
+    <Name>QA</Name>
+    <CurrencySymbol>ر.ق.‏</CurrencySymbol>
+    <ISOCurrencySymbol>QAR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>198</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>REU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>REU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>RE</TwoLetterISORegionName>
+    <NativeName>La Réunion</NativeName>
+    <DisplayName>Реюньон</DisplayName>
+    <EnglishName>Réunion</EnglishName>
+    <Name>RE</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>leu românesc</CurrencyNativeName>
+    <CurrencyEnglishName>Romanian Leu</CurrencyEnglishName>
+    <GeoId>200</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ROU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ROU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>RO</TwoLetterISORegionName>
+    <NativeName>România</NativeName>
+    <DisplayName>Румыния</DisplayName>
+    <EnglishName>Romania</EnglishName>
+    <Name>RO</Name>
+    <CurrencySymbol>lei</CurrencySymbol>
+    <ISOCurrencySymbol>RON</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>һум</CurrencyNativeName>
+    <CurrencyEnglishName>Russian Ruble</CurrencyEnglishName>
+    <GeoId>203</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>RUS</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>RUS</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>RU</TwoLetterISORegionName>
+    <NativeName>Рәсәй</NativeName>
+    <DisplayName>Россия</DisplayName>
+    <EnglishName>Russia</EnglishName>
+    <Name>RU</Name>
+    <CurrencySymbol>₽</CurrencySymbol>
+    <ISOCurrencySymbol>RUB</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Rwandan Franc</CurrencyNativeName>
+    <CurrencyEnglishName>Rwandan Franc</CurrencyEnglishName>
+    <GeoId>204</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>RWA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>RWA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>RW</TwoLetterISORegionName>
+    <NativeName>Rwanda</NativeName>
+    <DisplayName>Руанда</DisplayName>
+    <EnglishName>Rwanda</EnglishName>
+    <Name>RW</Name>
+    <CurrencySymbol>RF</CurrencySymbol>
+    <ISOCurrencySymbol>RWF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ريال سعودي</CurrencyNativeName>
+    <CurrencyEnglishName>Saudi Riyal</CurrencyEnglishName>
+    <GeoId>205</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SAU</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SAU</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SA</TwoLetterISORegionName>
+    <NativeName>المملكة العربية السعودية</NativeName>
+    <DisplayName>Саудовская Аравия</DisplayName>
+    <EnglishName>Saudi Arabia</EnglishName>
+    <Name>SA</Name>
+    <CurrencySymbol>ر.س.‏</CurrencySymbol>
+    <ISOCurrencySymbol>SAR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>CFA</CurrencyNativeName>
+    <CurrencyEnglishName>West African CFA Franc</CurrencyEnglishName>
+    <GeoId>210</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SEN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SEN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SN</TwoLetterISORegionName>
+    <NativeName>Senegaal</NativeName>
+    <DisplayName>Сенегал</DisplayName>
+    <EnglishName>Senegal</EnglishName>
+    <Name>SN</Name>
+    <CurrencySymbol>CFA</CurrencySymbol>
+    <ISOCurrencySymbol>XOF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>динар</CurrencyNativeName>
+    <CurrencyEnglishName>Serbian Dinar</CurrencyEnglishName>
+    <GeoId>271</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SRB</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SRB</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>RS</TwoLetterISORegionName>
+    <NativeName>Србија</NativeName>
+    <DisplayName>Сербия</DisplayName>
+    <EnglishName>Serbia</EnglishName>
+    <Name>RS</Name>
+    <CurrencySymbol>дин.</CurrencySymbol>
+    <ISOCurrencySymbol>RSD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Singapore Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Singapore Dollar</CurrencyEnglishName>
+    <GeoId>215</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SGP</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SGP</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SG</TwoLetterISORegionName>
+    <NativeName>Singapore</NativeName>
+    <DisplayName>Сингапур</DisplayName>
+    <EnglishName>Singapore</EnglishName>
+    <Name>SG</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>SGD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>143</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SVK</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SVK</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SK</TwoLetterISORegionName>
+    <NativeName>Slovensko</NativeName>
+    <DisplayName>Словакия</DisplayName>
+    <EnglishName>Slovakia</EnglishName>
+    <Name>SK</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>evro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>212</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SVN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SVN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SI</TwoLetterISORegionName>
+    <NativeName>Slovenija</NativeName>
+    <DisplayName>Словения</DisplayName>
+    <EnglishName>Slovenia</EnglishName>
+    <Name>SI</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Shilin soomaali</CurrencyNativeName>
+    <CurrencyEnglishName>Somali Shilling</CurrencyEnglishName>
+    <GeoId>216</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SOM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SOM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SO</TwoLetterISORegionName>
+    <NativeName>Soomaaliya</NativeName>
+    <DisplayName>Сомали</DisplayName>
+    <EnglishName>Somalia</EnglishName>
+    <Name>SO</Name>
+    <CurrencySymbol>S</CurrencySymbol>
+    <ISOCurrencySymbol>SOS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Suid-Afrikaanse rand</CurrencyNativeName>
+    <CurrencyEnglishName>South African Rand</CurrencyEnglishName>
+    <GeoId>209</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ZAF</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ZAF</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ZA</TwoLetterISORegionName>
+    <NativeName>Suid-Afrika</NativeName>
+    <DisplayName>ЮАР</DisplayName>
+    <EnglishName>South Africa</EnglishName>
+    <Name>ZA</Name>
+    <CurrencySymbol>R</CurrencySymbol>
+    <ISOCurrencySymbol>ZAR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>euro</CurrencyNativeName>
+    <CurrencyEnglishName>Euro</CurrencyEnglishName>
+    <GeoId>217</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ESP</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ESP</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ES</TwoLetterISORegionName>
+    <NativeName>Espanya</NativeName>
+    <DisplayName>Испания</DisplayName>
+    <EnglishName>Spain</EnglishName>
+    <Name>ES</Name>
+    <CurrencySymbol>€</CurrencySymbol>
+    <ISOCurrencySymbol>EUR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ශ්‍රී ලංකා රුපියල</CurrencyNativeName>
+    <CurrencyEnglishName>Sri Lankan Rupee</CurrencyEnglishName>
+    <GeoId>42</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>LKA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>LKA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>LK</TwoLetterISORegionName>
+    <NativeName>ශ්‍රී ලංකාව</NativeName>
+    <DisplayName>Шри-Ланка</DisplayName>
+    <EnglishName>Sri Lanka</EnglishName>
+    <Name>LK</Name>
+    <CurrencySymbol>රු.</CurrencySymbol>
+    <ISOCurrencySymbol>LKR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ruvdnu</CurrencyNativeName>
+    <CurrencyEnglishName>Swedish Krona</CurrencyEnglishName>
+    <GeoId>221</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SWE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SWE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SE</TwoLetterISORegionName>
+    <NativeName>Ruoŧŧa</NativeName>
+    <DisplayName>Швеция</DisplayName>
+    <EnglishName>Sweden</EnglishName>
+    <Name>SE</Name>
+    <CurrencySymbol>kr</CurrencySymbol>
+    <ISOCurrencySymbol>SEK</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Schweizer Franken</CurrencyNativeName>
+    <CurrencyEnglishName>Swiss Franc</CurrencyEnglishName>
+    <GeoId>223</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>CHE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>CHE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>CH</TwoLetterISORegionName>
+    <NativeName>Schweiz</NativeName>
+    <DisplayName>Швейцария</DisplayName>
+    <EnglishName>Switzerland</EnglishName>
+    <Name>CH</Name>
+    <CurrencySymbol>CHF</CurrencySymbol>
+    <ISOCurrencySymbol>CHF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ليرة سوري</CurrencyNativeName>
+    <CurrencyEnglishName>Syrian Pound</CurrencyEnglishName>
+    <GeoId>222</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>SYR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>SYR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>SY</TwoLetterISORegionName>
+    <NativeName>سوريا</NativeName>
+    <DisplayName>Сирия</DisplayName>
+    <EnglishName>Syria</EnglishName>
+    <Name>SY</Name>
+    <CurrencySymbol>ل.س.‏</CurrencySymbol>
+    <ISOCurrencySymbol>SYP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>新台幣</CurrencyNativeName>
+    <CurrencyEnglishName>New Taiwan Dollar</CurrencyEnglishName>
+    <GeoId>237</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TWN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TWN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TW</TwoLetterISORegionName>
+    <NativeName>台灣</NativeName>
+    <DisplayName>Тайвань</DisplayName>
+    <EnglishName>Taiwan</EnglishName>
+    <Name>TW</Name>
+    <CurrencySymbol>NT$</CurrencySymbol>
+    <ISOCurrencySymbol>TWD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Сомонӣ</CurrencyNativeName>
+    <CurrencyEnglishName>Tajikistani Somoni</CurrencyEnglishName>
+    <GeoId>228</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TJK</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TJK</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TJ</TwoLetterISORegionName>
+    <NativeName>Тоҷикистон</NativeName>
+    <DisplayName>Таджикистан</DisplayName>
+    <EnglishName>Tajikistan</EnglishName>
+    <Name>TJ</Name>
+    <CurrencySymbol>смн</CurrencySymbol>
+    <ISOCurrencySymbol>TJS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>บาท</CurrencyNativeName>
+    <CurrencyEnglishName>Thai Baht</CurrencyEnglishName>
+    <GeoId>227</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>THA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>THA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TH</TwoLetterISORegionName>
+    <NativeName>ไทย</NativeName>
+    <DisplayName>Таиланд</DisplayName>
+    <EnglishName>Thailand</EnglishName>
+    <Name>TH</Name>
+    <CurrencySymbol>฿</CurrencySymbol>
+    <ISOCurrencySymbol>THB</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Trinidad and Tobago Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>Trinidad and Tobago Dollar</CurrencyEnglishName>
+    <GeoId>225</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TTO</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TTO</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TT</TwoLetterISORegionName>
+    <NativeName>Trinidad and Tobago</NativeName>
+    <DisplayName>Тринидад и Тобаго</DisplayName>
+    <EnglishName>Trinidad and Tobago</EnglishName>
+    <Name>TT</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>TTD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>دينار تونسي</CurrencyNativeName>
+    <CurrencyEnglishName>Tunisian Dinar</CurrencyEnglishName>
+    <GeoId>234</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TUN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TUN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TN</TwoLetterISORegionName>
+    <NativeName>تونس</NativeName>
+    <DisplayName>Тунис</DisplayName>
+    <EnglishName>Tunisia</EnglishName>
+    <Name>TN</Name>
+    <CurrencySymbol>د.ت.‏</CurrencySymbol>
+    <ISOCurrencySymbol>TND</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Türk Lirası</CurrencyNativeName>
+    <CurrencyEnglishName>Turkish Lira</CurrencyEnglishName>
+    <GeoId>235</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TUR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TUR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TR</TwoLetterISORegionName>
+    <NativeName>Türkiye</NativeName>
+    <DisplayName>Турция</DisplayName>
+    <EnglishName>Turkey</EnglishName>
+    <Name>TR</Name>
+    <CurrencySymbol>₺</CurrencySymbol>
+    <ISOCurrencySymbol>TRY</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>manat</CurrencyNativeName>
+    <CurrencyEnglishName>Turkmenistani Manat</CurrencyEnglishName>
+    <GeoId>238</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>TKM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>TKM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>TM</TwoLetterISORegionName>
+    <NativeName>Türkmenistan</NativeName>
+    <DisplayName>Туркменистан</DisplayName>
+    <EnglishName>Turkmenistan</EnglishName>
+    <Name>TM</Name>
+    <CurrencySymbol>m.</CurrencySymbol>
+    <ISOCurrencySymbol>TMT</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>гривня</CurrencyNativeName>
+    <CurrencyEnglishName>Ukrainian Hryvnia</CurrencyEnglishName>
+    <GeoId>241</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>UKR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>UKR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>UA</TwoLetterISORegionName>
+    <NativeName>Україна</NativeName>
+    <DisplayName>Украина</DisplayName>
+    <EnglishName>Ukraine</EnglishName>
+    <Name>UA</Name>
+    <CurrencySymbol>₴</CurrencySymbol>
+    <ISOCurrencySymbol>UAH</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>درهم اماراتي</CurrencyNativeName>
+    <CurrencyEnglishName>United Arab Emirates Dirham</CurrencyEnglishName>
+    <GeoId>224</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ARE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ARE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>AE</TwoLetterISORegionName>
+    <NativeName>الإمارات العربية المتحدة</NativeName>
+    <DisplayName>ОАЭ</DisplayName>
+    <EnglishName>United Arab Emirates</EnglishName>
+    <Name>AE</Name>
+    <CurrencySymbol>د.إ.‏</CurrencySymbol>
+    <ISOCurrencySymbol>AED</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Punt Prydain</CurrencyNativeName>
+    <CurrencyEnglishName>British Pound</CurrencyEnglishName>
+    <GeoId>242</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>GBR</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>GBR</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>GB</TwoLetterISORegionName>
+    <NativeName>Y Deyrnas Unedig</NativeName>
+    <DisplayName>Соединенное Королевство</DisplayName>
+    <EnglishName>United Kingdom</EnglishName>
+    <Name>GB</Name>
+    <CurrencySymbol>£</CurrencySymbol>
+    <ISOCurrencySymbol>GBP</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>US Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>US Dollar</CurrencyEnglishName>
+    <GeoId>244</GeoId>
+    <IsMetric>false</IsMetric>
+    <ThreeLetterWindowsRegionName>USA</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>USA</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>US</TwoLetterISORegionName>
+    <NativeName>ᏌᏊ ᎢᏳᎾᎵᏍᏔᏅ ᏍᎦᏚᎩ</NativeName>
+    <DisplayName>США</DisplayName>
+    <EnglishName>United States</EnglishName>
+    <Name>US</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>USD</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>peso uruguayo</CurrencyNativeName>
+    <CurrencyEnglishName>Uruguayan Peso</CurrencyEnglishName>
+    <GeoId>246</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>URY</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>URY</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>UY</TwoLetterISORegionName>
+    <NativeName>Uruguay</NativeName>
+    <DisplayName>Уругвай</DisplayName>
+    <EnglishName>Uruguay</EnglishName>
+    <Name>UY</Name>
+    <CurrencySymbol>$</CurrencySymbol>
+    <ISOCurrencySymbol>UYU</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Ўзбекистон сўм</CurrencyNativeName>
+    <CurrencyEnglishName>Uzbekistani Som</CurrencyEnglishName>
+    <GeoId>247</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>UZB</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>UZB</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>UZ</TwoLetterISORegionName>
+    <NativeName>Ўзбекистон</NativeName>
+    <DisplayName>Узбекистан</DisplayName>
+    <EnglishName>Uzbekistan</EnglishName>
+    <Name>UZ</Name>
+    <CurrencySymbol>сўм</CurrencySymbol>
+    <ISOCurrencySymbol>UZS</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>bolívar venezolano</CurrencyNativeName>
+    <CurrencyEnglishName>Venezuelan Bolívar</CurrencyEnglishName>
+    <GeoId>249</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>VEN</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>VEN</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>VE</TwoLetterISORegionName>
+    <NativeName>Venezuela</NativeName>
+    <DisplayName>Боливарийская Республика Венесуэла</DisplayName>
+    <EnglishName>Venezuela</EnglishName>
+    <Name>VE</Name>
+    <CurrencySymbol>Bs.</CurrencySymbol>
+    <ISOCurrencySymbol>VEF</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Đồng</CurrencyNativeName>
+    <CurrencyEnglishName>Vietnamese Dong</CurrencyEnglishName>
+    <GeoId>251</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>VNM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>VNM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>VN</TwoLetterISORegionName>
+    <NativeName>Việt Nam</NativeName>
+    <DisplayName>Вьетнам</DisplayName>
+    <EnglishName>Vietnam</EnglishName>
+    <Name>VN</Name>
+    <CurrencySymbol>₫</CurrencySymbol>
+    <ISOCurrencySymbol>VND</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>Special Drawing Rights</CurrencyNativeName>
+    <CurrencyEnglishName>Special Drawing Rights</CurrencyEnglishName>
+    <GeoId>39070</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>001</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>001</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>001</TwoLetterISORegionName>
+    <NativeName>World</NativeName>
+    <DisplayName>Все страны</DisplayName>
+    <EnglishName>World</EnglishName>
+    <Name>001</Name>
+    <CurrencySymbol>XDR</CurrencySymbol>
+    <ISOCurrencySymbol>XDR</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>ريال يمني</CurrencyNativeName>
+    <CurrencyEnglishName>Yemeni Rial</CurrencyEnglishName>
+    <GeoId>261</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>YEM</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>YEM</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>YE</TwoLetterISORegionName>
+    <NativeName>اليمن</NativeName>
+    <DisplayName>Йемен</DisplayName>
+    <EnglishName>Yemen</EnglishName>
+    <Name>YE</Name>
+    <CurrencySymbol>ر.ي.‏</CurrencySymbol>
+    <ISOCurrencySymbol>YER</ISOCurrencySymbol>
+  </RegionData>
+  <RegionData>
+    <CurrencyNativeName>US Dollar</CurrencyNativeName>
+    <CurrencyEnglishName>US Dollar</CurrencyEnglishName>
+    <GeoId>264</GeoId>
+    <IsMetric>true</IsMetric>
+    <ThreeLetterWindowsRegionName>ZWE</ThreeLetterWindowsRegionName>
+    <ThreeLetterISORegionName>ZWE</ThreeLetterISORegionName>
+    <TwoLetterISORegionName>ZW</TwoLetterISORegionName>
+    <NativeName>Zimbabwe</NativeName>
+    <DisplayName>Зимбабве</DisplayName>
+    <EnglishName>Zimbabwe</EnglishName>
+    <Name>ZW</Name>
+    <CurrencySymbol>US$</CurrencySymbol>
+    <ISOCurrencySymbol>USD</ISOCurrencySymbol>
+  </RegionData>
+</ArrayOfRegionData>
