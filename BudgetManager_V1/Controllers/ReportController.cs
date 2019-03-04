@@ -8,7 +8,7 @@ using BudgetManager_V1.Models;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using BudgetManager_V1.Extentions;
-
+using Microsoft.AspNet.Identity;
 
 namespace BudgetManager_V1.Controllers
 {
@@ -24,27 +24,15 @@ namespace BudgetManager_V1.Controllers
         [HttpGet]
         public ActionResult IncomeExpenseForMonth()
         {
-            return View(new IncomeExpenseByMonthVm()
-            {
-                CurrentSelection = DateTime.Now,
-                LedgerData = new List<Ledger>(),
-                ReportType = ReportType.Fact,
-                SelectedForPeriod = SelectedForPeriod.Current
-            });
+            ViewBag.Sum = 0.0;
+            return View(GetDefaultParamIncExpByMonth());
         }
 
         [HttpPost]
         public async Task<ActionResult> IncomeExpenseForMonth([Bind(Include = "CurrentSelection,ReportType,SelectedForPeriod")]IncomeExpenseByMonthVm reportParams)
         {
             if (reportParams == null)
-            {
-                reportParams = new IncomeExpenseByMonthVm()
-                {
-                    CurrentSelection = DateTime.Now,
-                    ReportType = ReportType.Fact,
-                    SelectedForPeriod = SelectedForPeriod.Current
-                };
-            }
+                reportParams = GetDefaultParamIncExpByMonth();
 
             if (ModelState.IsValid)
             {
@@ -53,14 +41,20 @@ namespace BudgetManager_V1.Controllers
                 {
                     case SelectedForPeriod.Previous: currentReportPeriod = reportParams.CurrentSelection.AddMonths(-1); break;
                     case SelectedForPeriod.Next: currentReportPeriod = reportParams.CurrentSelection.AddMonths(1); break;
-                    default: break;
+                    default: currentReportPeriod = reportParams.CurrentSelection; break;
                 }
+
                 reportParams.CurrentSelection = this.currentReportPeriod;
+
+                ApplicationUser curUser = db.Users.Find(User.Identity.GetUserId());
 
                 List<Ledger> rez = null;
                 //getting all the ledger data for report period:
                 var temp = db.Ledgers
-                    .Where(t => t.Date.Year == reportParams.CurrentSelection.Year && t.Date.Month == reportParams.CurrentSelection.Month)
+                    .Where(t => 
+                        t.Date.Year == reportParams.CurrentSelection.Year && 
+                        t.Date.Month == reportParams.CurrentSelection.Month &&
+                        t.Account.ApplicationUserId.Equals(curUser.Id))
                     .Include(t => t.Account)
                     .Include(t => t.Account.Currency)
                     .Include(t => t.IncomeExpenseItem)
@@ -85,11 +79,45 @@ namespace BudgetManager_V1.Controllers
                 }
 
                 reportParams.LedgerData = rez;
+                ViewBag.Sum = await GetSumInUAH(rez, reportParams);
             }
             if (reportParams.LedgerData == null)
                 reportParams.LedgerData = new List<Ledger>();
 
             return View(reportParams);
+        }
+
+        private async Task<double> GetSumInUAH(List<Ledger> rez, IncomeExpenseByMonthVm param)
+        {
+            double sum = 0;
+            var rateList = await db.CurrencyCourses
+                .Include(t => t.Currency)
+                .Where(t => t.Date.Year == param.CurrentSelection.Year && t.Date.Month == param.CurrentSelection.Month)
+                .ToListAsync();
+            var curList = await db.Currencies.ToListAsync();
+
+            foreach (Ledger item in rez)
+            {
+                if (item.Account.Currency.ISOCurrencySymbol.Equals("uah", StringComparison.OrdinalIgnoreCase))
+                {
+                    sum += item.Sum;
+                }
+                else
+                {
+                    //getting currency exchange rate for curent operation
+                    Currency curCurrency = item.Account.Currency;
+                    var curRate = rateList.FirstOrDefault(t =>
+                        t.Currency.Id == curCurrency.Id &&
+                        t.Date.Year == item.Date.Year &&
+                        t.Date.Month == item.Date.Month &&
+                        t.Date.Day == item.Date.Day);
+                    if(curRate == null)
+                        this.ModelState.AddModelError("", $"Sum {item.Sum}. There is no rate for the day {item.Date.ToShortDateString()} for currency {item.Account.Currency.ISOCurrencySymbol} ({item.Account.Currency.CurrencyEnglishName})");
+                    else
+                        sum += item.Sum * curRate.Course;
+                }
+            }
+            return sum;
         }
 
         [HttpGet]
@@ -103,12 +131,12 @@ namespace BudgetManager_V1.Controllers
             return View(res);
         }
 
+
         [HttpGet]//fact expences
         public ActionResult TotalsByCategories()
         {
             return View(new TotalByCategoriesVm());
         }
-
         //fact expences in UAH        
         [HttpPost]
         public ActionResult TotalsByCategories([Bind(Include = "From,To")]TotalByCategoriesVm dataSet)
@@ -130,8 +158,18 @@ namespace BudgetManager_V1.Controllers
 
             return View(dataSet);
         }
-        
 
+
+        private static IncomeExpenseByMonthVm GetDefaultParamIncExpByMonth()
+        {
+            return new IncomeExpenseByMonthVm()
+            {
+                CurrentSelection = DateTime.Now,
+                LedgerData = new List<Ledger>(),
+                ReportType = ReportType.Fact,
+                SelectedForPeriod = SelectedForPeriod.Current
+            };
+        }
         private List<IGrouping<string, Ledger>> GetFactLedgerExpenses(TotalByCategoriesVm dataSet, ApplicationUser curUser)
         {
             return db.Ledgers

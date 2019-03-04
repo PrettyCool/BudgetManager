@@ -72,46 +72,44 @@
 
         @foreach (var item in Model?.LedgerData)
         {
-            <div class="row table-bordered table-responsive text-justify">
-                <span class="col-sm-2 ">@item.Account.Name</span>
-                <span class="col-sm-2">@item.IncomeExpenseItem.Name</span>
-                <span class="col-sm-1">@item.PlanFact.Name</span>
-                <span class="col-sm-2">@item.Date</span>
-                <span class="col-sm-1">@item.Account.Currency.ISOCurrencySymbol</span>
-
-
-                @if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense") == true)
-                {
-                    <span class="col-sm-1" style="color:red">@item.Sum</span>
-                    {
-                        SumExpemse += item.Sum;
-                    }
-                }
-                else
-                {
-                    <span class="col-sm-1" style="color:green;font-weight:bold">@item.Sum</span>
-                    {
-                        SumIncome += item.Sum;
-                    }
-                }
-                <span class="col-sm-3">@item.Comment</span>
-            </div>
+        <div class="row table-bordered table-responsive text-justify">
+            <span class="col-sm-2 ">@item.Account.Name</span>
+            <span class="col-sm-2">@item.IncomeExpenseItem.Name</span>
+            <span class="col-sm-1">@item.PlanFact.Name</span>
+            <span class="col-sm-2">@item.Date</span>
+            <span class="col-sm-1">@item.Account.Currency.ISOCurrencySymbol</span>
+            
+            @if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense") == true)
+            {
+                <span class="col-sm-1" style="color:red">@item.Sum</span>
+                //{
+                //    SumExpemse += item.Sum;
+                //}
+            }
+            else
+            {
+                <span class="col-sm-1" style="color:green;font-weight:bold">@item.Sum</span>
+                //{
+                //    SumIncome += item.Sum;
+                //}
+            }
+            <span class="col-sm-3">@item.Comment</span>
+        </div>
         }
 
         <div class="row text-center">
-
             @{
-                rez = SumIncome - SumExpemse;
+                string output = String.Format("{0:F2}", ViewBag.Sum);
             }
-            @if (rez < 0)
+            @if (ViewBag.Sum < 0)
             {
                 <span>Total: </span>
-                <span style="color:red;font-weight:900;font-size:large">@rez</span>
+                <span style="color:red;font-weight:900;font-size:large">@output</span>
             }
-            else if (rez > 0)
+            else  
             {
                 <span>Total: </span>
-                <span style="color:green;font-weight:900;font-size:large">@rez</span>
+                <span style="color:green;font-weight:900;font-size:large">@output</span>
             }
 
         </div>

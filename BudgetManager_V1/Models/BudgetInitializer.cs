@@ -11,8 +11,7 @@ using Microsoft.Owin;
 using CurrencyExchangeRate;
 
 namespace BudgetManager_V1.Models
-{
-    internal class BudgetInitializer : DropCreateDatabaseAlways<ApplicationDbContext>
+{    internal class BudgetInitializer : CreateDatabaseIfNotExists<ApplicationDbContext>
     {
         protected  override void Seed(ApplicationDbContext db)
         {
