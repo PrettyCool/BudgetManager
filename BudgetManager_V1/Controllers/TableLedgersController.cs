@@ -94,7 +94,7 @@ namespace BudgetManager_V1.Controllers
 
         public ActionResult Create()
         {
-            ViewBag.AccountId = new SelectList(db.Accounts, "Id", "Name");
+            ViewBag.AccountId = new SelectList(db.Accounts, "Id", "Name", "Currency.EnglishName");
             ViewBag.IncomeExpenseItemId = new SelectList(db.IncomeExpenseItems, "Id", "Name");
             ViewBag.PlanFactId = new SelectList(db.PlanFacts, "Id", "Name");
             return View();

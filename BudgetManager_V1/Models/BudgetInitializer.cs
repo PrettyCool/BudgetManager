@@ -35,9 +35,9 @@ namespace BudgetManager_V1.Models
                 db.SaveChanges();
                 #endregion
 
-                #region add users
-                CreateUsers(peopleList);
-                #endregion
+                //#region add users
+                //CreateUsers(peopleList);
+                //#endregion
 
                 #region add currencies
                 try
@@ -90,8 +90,8 @@ namespace BudgetManager_V1.Models
                 //CacheFlow
                 List<CashFlow> cashFlowList = new List<CashFlow>
                 {
-                    new CashFlow(){ Type = "Income"},
-                    new CashFlow(){ Type = "Expense"}
+                    new CashFlow(){ Type = "Expense"},
+                    new CashFlow(){ Type = "Income"}
                 };
                 db.CashFlows.AddRange(cashFlowList);
                 #endregion
@@ -169,8 +169,8 @@ namespace BudgetManager_V1.Models
                 #endregion
 
                 #region plan/fact/budget
-                planFactList.Add(new PlanFact() { Name = "Plan" });
                 planFactList.Add(new PlanFact() { Name = "Fact" });
+                planFactList.Add(new PlanFact() { Name = "Plan" });
                 planFactList.Add(new PlanFact() { Name = "Budget" });
 
                 db.PlanFacts.AddRange(planFactList);

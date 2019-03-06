@@ -1,0 +1,24 @@
+			Home budget
+
+		Short description:
+The program allows you to track family income/expenses, 
+find out what needs are most expensive and save money 
+by removing unnecessary expences from the budget.
+
+		Requirements:
+1. The program contains a database with a detailed
+list of income/expences devided into categories
+2. Current user has an access to handle all his data 
+(see the data, edit, insert, delete)
+3. The program supports the ability to work for more than one user.
+
+		Required reports
+1. A list of operations for required period with the total amount, 
+	calculated in a balance currency
+2. A list of fact expenses by categories for selected period 
+	(with total result by categories).
+3. A list of income/expenses, grouped by categories.
+
+
+
+

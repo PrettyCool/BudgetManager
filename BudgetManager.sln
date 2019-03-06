@@ -28,6 +28,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86A61F7C-F33C-4043-9362-10CE469E52FE}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe_DbInitialization.txt = ReadMe_DbInitialization.txt
+		ReadMe_UserTutorial.txt = ReadMe_UserTutorial.txt
+		Task.txt = Task.txt
 	EndProjectSection
 EndProject
 Global

@@ -5,5 +5,7 @@
 	a) init Account table
 	b) init Ledger table
 
-	test comment
-	one more comment
+4.ATTENTION!!!!!!!!!!!!!
+these actions removes data without ability to restore them!
+To clear ledger  - select an action "Clear ledger"
+The action "Clear account" removes all user's money accounts and connected ledger entries
