@@ -10,6 +10,13 @@ namespace BudgetManager_V1.Controllers
 {
     public class HomeController : Controller
     {
+        //public HomeController()
+        //{
+        //    using (ApplicationDbContext db = new ApplicationDbContext())
+        //    {
+
+        //    }
+        //}    
         public ActionResult Index() => View();
         public ActionResult Help() => View();
     }

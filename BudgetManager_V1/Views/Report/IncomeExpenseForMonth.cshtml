@@ -21,34 +21,37 @@
 
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             <div class="form-group">
-                @Html.LabelFor(model => model.CurrentSelection, htmlAttributes: new { @class = "control-label col-md-2" })
+                <label class="control-label col-md-2">Current selection</label>
+                @*@Html.LabelFor(model => model.CurrentSelection, htmlAttributes: new { @class = "control-label col-md-2" })*@
                 <div>
                     @Html.EditorFor(model => model.CurrentSelection, new { htmlAttributes = new { @class = "datepicker " } })
-                    @Html.ValidationMessageFor(model => model.CurrentSelection, "", new { @class = "text-danger" })
+                    @*@Html.ValidationMessageFor(model => model.CurrentSelection, "", new { @class = "text-danger" })*@
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.ReportType, htmlAttributes: new { @class = "control-label col-md-2" })
+                <label class="control-label col-md-2">Report type</label>
+                @*@Html.LabelFor(model => model.ReportType, htmlAttributes: new { @class = "control-label col-md-2" })*@
                 <div>
                     @Html.DropDownListFor(model => model.ReportType, EnumHelper.GetSelectList(typeof(ReportType)))
                     @*@Html.EditorFor(model => model.ReportType, new { htmlAttributes = new { @class = "form-control" } })*@
-                    @Html.ValidationMessageFor(model => model.ReportType, "", new { @class = "text-danger" })
+                    @*@Html.ValidationMessageFor(model => model.ReportType, "", new { @class = "text-danger" })*@
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.SelectedForPeriod, htmlAttributes: new { @class = "control-label col-md-2" })
+                <label class="control-label col-md-2">For a period:</label>
+                @*@Html.LabelFor(model => model.SelectedForPeriod, htmlAttributes: new { @class = "control-label col-md-2" })*@
                 <div>
                     @Html.DropDownListFor(model => model.SelectedForPeriod, EnumHelper.GetSelectList(typeof(SelectedForPeriod)))
                     @*@Html.EditorFor(model => model.SelectedForPeriod, new { htmlAttributes = new { @class = "form-control" } })*@
-                    @Html.ValidationMessageFor(model => model.SelectedForPeriod, "", new { @class = "text-danger" })
+                    @*@Html.ValidationMessageFor(model => model.SelectedForPeriod, "", new { @class = "text-danger" })*@
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Create" class="btn btn-default" />
+                    <input type="submit" value="Get report" class="btn btn-default" />
                 </div>
             </div>
         </div>
@@ -82,16 +85,10 @@
             @if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense") == true)
             {
                 <span class="col-sm-1" style="color:red">@item.Sum</span>
-                //{
-                //    SumExpemse += item.Sum;
-                //}
             }
             else
             {
                 <span class="col-sm-1" style="color:green;font-weight:bold">@item.Sum</span>
-                //{
-                //    SumIncome += item.Sum;
-                //}
             }
             <span class="col-sm-3">@item.Comment</span>
         </div>
@@ -99,17 +96,25 @@
 
         <div class="row text-center">
             @{
-                string output = String.Format("{0:F2}", ViewBag.Sum);
+                string sInc = String.Format("{0:F2}", ViewBag.SumInc);
+                string sExp = String.Format("{0:F2}", ViewBag.SumExp);
+                double total = ViewBag.SumInc - ViewBag.SumExp;
+                string sTotal = String.Format("{0:F2}", total);
             }
-            @if (ViewBag.Sum < 0)
+
+            Income
+            <span style="color:green;font-weight:900;font-size:large">@sInc</span>
+            Expense
+            <span style="color:red;font-weight:900;font-size:large">@sExp</span>
+
+            <span>Total: </span>
+            @if (total < 0)
             {
-                <span>Total: </span>
-                <span style="color:red;font-weight:900;font-size:large">@output</span>
+                <span style="color:red;font-weight:900;font-size:large">@sTotal</span>
             }
-            else  
+            else
             {
-                <span>Total: </span>
-                <span style="color:green;font-weight:900;font-size:large">@output</span>
+                <span style="color:green;font-weight:900;font-size:large">@sTotal</span>
             }
 
         </div>

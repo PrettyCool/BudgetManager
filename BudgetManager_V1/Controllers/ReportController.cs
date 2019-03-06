@@ -21,10 +21,13 @@ namespace BudgetManager_V1.Controllers
 
         public ActionResult Index() => View();
 
+
+        #region income/expence for month
         [HttpGet]
         public ActionResult IncomeExpenseForMonth()
         {
-            ViewBag.Sum = 0.0;
+            ViewBag.SumInc = 0.0;
+            ViewBag.SumExp = 0.0;
             return View(GetDefaultParamIncExpByMonth());
         }
 
@@ -36,7 +39,7 @@ namespace BudgetManager_V1.Controllers
 
             if (ModelState.IsValid)
             {
-                //change the report period according to request (next or previous
+                //change the report period according to request 
                 switch (reportParams.SelectedForPeriod)
                 {
                     case SelectedForPeriod.Previous: currentReportPeriod = reportParams.CurrentSelection.AddMonths(-1); break;
@@ -51,8 +54,8 @@ namespace BudgetManager_V1.Controllers
                 List<Ledger> rez = null;
                 //getting all the ledger data for report period:
                 var temp = db.Ledgers
-                    .Where(t => 
-                        t.Date.Year == reportParams.CurrentSelection.Year && 
+                    .Where(t =>
+                        t.Date.Year == reportParams.CurrentSelection.Year &&
                         t.Date.Month == reportParams.CurrentSelection.Month &&
                         t.Account.ApplicationUserId.Equals(curUser.Id))
                     .Include(t => t.Account)
@@ -79,7 +82,7 @@ namespace BudgetManager_V1.Controllers
                 }
 
                 reportParams.LedgerData = rez;
-                ViewBag.Sum = await GetSumInUAH(rez, reportParams);
+                bool stop = await SetSumInUAH(rez, reportParams);
             }
             if (reportParams.LedgerData == null)
                 reportParams.LedgerData = new List<Ledger>();
@@ -87,9 +90,20 @@ namespace BudgetManager_V1.Controllers
             return View(reportParams);
         }
 
-        private async Task<double> GetSumInUAH(List<Ledger> rez, IncomeExpenseByMonthVm param)
+        private static IncomeExpenseByMonthVm GetDefaultParamIncExpByMonth()
         {
-            double sum = 0;
+            return new IncomeExpenseByMonthVm()
+            {
+                CurrentSelection = DateTime.Now,
+                LedgerData = new List<Ledger>(),
+                ReportType = ReportType.Fact,
+                SelectedForPeriod = SelectedForPeriod.Current
+            };
+        }
+        //recalculates operations based on currency rates 
+        private async Task<bool> SetSumInUAH(List<Ledger> rez, IncomeExpenseByMonthVm param)
+        {
+            double sumInc=0, sumExp = 0;
             var rateList = await db.CurrencyCourses
                 .Include(t => t.Currency)
                 .Where(t => t.Date.Year == param.CurrentSelection.Year && t.Date.Month == param.CurrentSelection.Month)
@@ -98,11 +112,15 @@ namespace BudgetManager_V1.Controllers
 
             foreach (Ledger item in rez)
             {
+                //operations in a balance currency
                 if (item.Account.Currency.ISOCurrencySymbol.Equals("uah", StringComparison.OrdinalIgnoreCase))
                 {
-                    sum += item.Sum;
+                    if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.Equals("income", StringComparison.OrdinalIgnoreCase))
+                        sumInc += item.Sum;
+                    else
+                        sumExp += item.Sum;
                 }
-                else
+                else //operations not in a balance currency
                 {
                     //getting currency exchange rate for curent operation
                     Currency curCurrency = item.Account.Currency;
@@ -114,12 +132,22 @@ namespace BudgetManager_V1.Controllers
                     if(curRate == null)
                         this.ModelState.AddModelError("", $"Sum {item.Sum}. There is no rate for the day {item.Date.ToShortDateString()} for currency {item.Account.Currency.ISOCurrencySymbol} ({item.Account.Currency.CurrencyEnglishName})");
                     else
-                        sum += item.Sum * curRate.Course;
+                    {
+                        if (item.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.Equals("income", StringComparison.OrdinalIgnoreCase))
+                            sumInc += item.Sum * curRate.Course;
+                        else
+                            sumExp += item.Sum*curRate.Course;
+                    }
                 }
             }
-            return sum;
+            ViewBag.SumInc = sumInc;
+            ViewBag.SumExp = sumExp;
+            return true;
         }
 
+        #endregion
+
+        
         [HttpGet]
         public async Task<ActionResult> ProductsByCategories()
         {
@@ -160,16 +188,7 @@ namespace BudgetManager_V1.Controllers
         }
 
 
-        private static IncomeExpenseByMonthVm GetDefaultParamIncExpByMonth()
-        {
-            return new IncomeExpenseByMonthVm()
-            {
-                CurrentSelection = DateTime.Now,
-                LedgerData = new List<Ledger>(),
-                ReportType = ReportType.Fact,
-                SelectedForPeriod = SelectedForPeriod.Current
-            };
-        }
+       
         private List<IGrouping<string, Ledger>> GetFactLedgerExpenses(TotalByCategoriesVm dataSet, ApplicationUser curUser)
         {
             return db.Ledgers
@@ -227,131 +246,3 @@ namespace BudgetManager_V1.Controllers
         private static bool AreDatesEqual(DateTime d1, DateTime d2) => d1.Year == d2.Year && d1.Month == d2.Month && d1.Day == d2.Day;
     }
 }
-
-
-
-//public ActionResult TotalsByCategories([Bind(Include = "From,To")]TotalByCategoriesVm dataSet)
-//{
-//    if (ModelState.IsValid)
-//    {
-//        var curUser = db.Users.FirstOrDefault(t => t.UserName.Equals(User.Identity.Name));
-//        var rez = db.Ledgers
-//            .Where(t => 
-//                    t.Account.ApplicationUserId.Equals(curUser.Id) &&
-//                    t.Date <= dataSet.To && 
-//                    t.PlanFact.Name.ToLower().Equals("fact") && 
-//                    t.IncomeExpenseItem.IncomeExpenseGroup.CashFlow.Type.ToLower().Equals("expense"))
-//            .Include(t=>t.Account)
-//            .Include(t=>t.Account.Currency)
-//            .Include(t=>t.IncomeExpenseItem)
-//            .Include(t=>t.IncomeExpenseItem.IncomeExpenseGroup)
-//            .Include(t=>t.IncomeExpenseItem.IncomeExpenseGroup.CashFlow)
-//            .Include(t=>t.PlanFact)
-//            .ToList();
-
-//        var cources = db.CurrencyCourses.Include(d => d.Currency).ToList();
-
-//        foreach (var item in rez)
-//        {
-//            var temp = cources.FirstOrDefault(t => 
-//                AreDatesEqual(t.Date , item.Date) && 
-//                t.Currency.NumericCountryCode.Equals(item.Account.Currency.NumericCountryCode));
-//            if (temp == null)
-//            {
-//                ModelState.AddModelError("", $"Enter the currency rate for {item.Account.Currency.ISOCurrencySymbol} - {item.Account.Currency.CurrencyEnglishName} for date {item.Date}");
-//            }
-//        }
-
-//        Dictionary<string, double> keyValuePairs = new Dictionary<string, double>();
-//        if (ModelState.IsValid)
-//        {
-//            //received a target group of fact expenses:
-//            IEnumerable<IGrouping<string, Ledger>> ledg = rez.GroupBy(t => t.IncomeExpenseItem.IncomeExpenseGroup.Name);
-//            //it is by default! change after the adding a setting object into UserTable!!!
-//            Currency userBalanceCurrency = db.Currencies.FirstOrDefault(t => t.ISOCurrencySymbol.ToLower().Equals("uah"));
-//            dataSet.UserBalanceCurrency = userBalanceCurrency;
-
-//            if (dataSet.CategorySum == null)
-//                dataSet.CategorySum = new Dictionary<string, double>();
-
-//            if (ledg != null)
-//            {
-//                foreach (var item in ledg)
-//                {
-//                    //calculating the sum by certain category:
-//                    double sum = 0;
-//                    foreach (Ledger i in item)
-//                    {
-//                        //if operation currency equals user balance currency
-//                        if (i.Account.Currency.CurrencyEnglishName.Equals(userBalanceCurrency.CurrencyEnglishName))
-//                        {
-//                            sum += i.Sum;
-//                        }
-//                        else
-//                        {
-//                            sum += i.Sum * cources.FirstOrDefault(t => 
-//                            AreDatesEqual(t.Date, i.Date) && 
-//                            t.Currency.ISOCurrencySymbol.Equals(i.Account.Currency.ISOCurrencySymbol)).Course;
-//                        }
-//                    }
-//                    dataSet.CategorySum.Add(item.Key, sum);
-//                }
-//            }
-//        }
-//    }
-//    return View(dataSet);
-//}
-
-
-//public async Task<ActionResult> IncomeExpenseForMonth(DateTime CurrentSelection,
-//           SelectedForPeriod selectedForPeriod = SelectedForPeriod.Current,
-//           ReportType reportType = ReportType.Fact)
-//{
-//    //if a period was selected, save it
-//    if (!(CurrentSelection == null || CurrentSelection == new DateTime(1, 1, 1, 0, 0, 0, 0)))
-//        currentReportPeriod = CurrentSelection;
-
-//    //change the report period according to request (next or previous
-//    switch (selectedForPeriod)
-//    {
-//        case SelectedForPeriod.Previous: currentReportPeriod = currentReportPeriod.AddMonths(-1); break;
-//        case SelectedForPeriod.Next: currentReportPeriod = currentReportPeriod.AddMonths(1); break;
-//        default: break;
-//    }
-
-//    List<Ledger> rez = null;
-//    using (ApplicationDbContext db = new ApplicationDbContext())
-//    {
-//        //getting all the ledger data for report period:
-//        var temp = db.Ledgers
-//            .Where(t => t.Date.Year == CurrentSelection.Year && t.Date.Month == CurrentSelection.Month)
-//            .Include(t => t.Account)
-//            .Include(t => t.IncomeExpenseItem)
-//            .Include(t => t.PlanFact);
-
-//        switch (reportType)
-//        {
-//            case ReportType.Plan:
-//                rez = await temp.Where(t => t.PlanFact.Name.ToLower().Equals("plan")).ToListAsync();
-//                break;
-//            case ReportType.Fact:
-//                rez = await temp.Where(t => t.PlanFact.Name.ToLower().Equals("fact")).ToListAsync();
-//                break;
-//            case ReportType.Budget:
-//                rez = await temp.Where(t => t.PlanFact.Name.ToLower().Equals("budget")).ToListAsync();
-//                break;
-//            default:
-//                rez = new List<Ledger>();
-//                break;
-//        }
-//    }
-
-//    IncomeExpenseByMonthVm iebm = new IncomeExpenseByMonthVm()
-//    {
-//        CurrentSelection = CurrentSelection,
-//        SelectedForPeriod = selectedForPeriod,
-//        ReportType = reportType,
-//        LedgerData = rez
-//    };
-//    return View(iebm);
-//}

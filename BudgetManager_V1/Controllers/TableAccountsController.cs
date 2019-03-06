@@ -8,6 +8,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using BudgetManager_V1.Models;
+using Microsoft.AspNet.Identity;
 
 namespace BudgetManager_V1.Controllers
 {
@@ -123,7 +124,6 @@ namespace BudgetManager_V1.Controllers
                 }
                 catch (System.Data.Entity.Validation.DbEntityValidationException e) { ModelState.AddModelError("", e.Message); }
             }
-            //ViewBag.ApplicationUserId = new SelectList(db.Users, "Id", "PersonId", account.ApplicationUserId);
             ViewBag.CurrencyId = new SelectList(db.Currencies, "Id", "EnglishName", account.CurrencyId);
             return View(account);
         }
@@ -168,7 +168,9 @@ namespace BudgetManager_V1.Controllers
             account.Currency = requestedAccountCurrency;
             return curUser;
         }
-        private ApplicationUser GetCurrentUser() => db.Users.FirstOrDefault(t => t.UserName.Equals(this.User.Identity.Name));
+
+        private ApplicationUser GetCurrentUser() => db.Users.Find(User.Identity.GetUserId());
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

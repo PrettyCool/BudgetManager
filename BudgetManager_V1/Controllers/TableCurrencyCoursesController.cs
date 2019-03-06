@@ -152,7 +152,7 @@ namespace BudgetManager_V1.Controllers
                     }
                     catch (System.Data.Entity.Validation.DbEntityValidationException e)
                     {
-                        ModelState.AddModelError("", e.Message);
+                        ModelState.AddModelError("", e);
                     }
                 }            
             }
